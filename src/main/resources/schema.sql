@@ -1,12 +1,5 @@
+CREATE DATABASE IF NOT EXISTS HSR;
 use HSR;
-
-DROP TABLE IF EXISTS `Station`;
-DROP TABLE IF EXISTS `Discount`;
-DROP TABLE IF EXISTS `BookingOrder`;
-DROP TABLE IF EXISTS `Ticket`;
-DROP TABLE IF EXISTS `Trip`;
-DROP TABLE IF EXISTS `TimeSequence`;
-DROP TABLE IF EXISTS `Price`;
 
 CREATE TABLE Station
 (
@@ -32,7 +25,7 @@ CREATE TABLE Price
 
 CREATE TABLE Discount
 (
-    id             INT AUTO_INCREMENT                               NOT NULL,
+    id             INT AUTO_INCREMENT UNIQUE                              NOT NULL,
     train_id       DECIMAL(4)                                       NOT NULL,
     discount_type  ENUM ('UNIVERSITY','EARLY')                      NOT NULL,
     update_date    Date                                             NOT NULL,
@@ -41,7 +34,7 @@ CREATE TABLE Discount
     weekday        ENUM ('MON','TUE','WED','THU','FRI','SAT','SUN') NOT NULL,
     percentage     DECIMAL(2)                                       NOT NULL,
     quantity       SMALLINT UNSIGNED                                NOT NULL,
-    PRIMARY KEY (id)
+    KEY (id, discount_type)
 );
 
 CREATE TABLE BookingOrder

@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.esoe.enums.DiscountType;
 import com.esoe.system.Database;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -22,8 +21,8 @@ public class JsonUtils {
 	public static void parseOriginalData() throws SQLException, FileNotFoundException {
 		String data_dir = System.getProperty("user.dir") + "/assets";
 		parseStation(data_dir + "/station.json");
-		parseEarlyDiscount(data_dir + "/earlyDiscount.json");
 		parseUniversityDiscount(data_dir + "/universityDiscount.json");
+		parseEarlyDiscount(data_dir + "/earlyDiscount.json");
 		parseTimeTable(data_dir + "/timeTable.json");
 		parsePrice(data_dir + "/price_modified.json");
 	}
@@ -115,7 +114,7 @@ public class JsonUtils {
 		}
 	}
 
-	public static  void parseEarlyDiscount(String dataPath) throws SQLException, FileNotFoundException {
+	public static  void parseEarlyDiscount(String dataPath) throws FileNotFoundException {
 		final String columns =
 			"train_id, discount_type, update_date, effective_date, expire_date, weekday, percentage, quantity";
 		final String[] DAY_OF_WEEK = {
@@ -158,7 +157,7 @@ public class JsonUtils {
 		}
 	}
 
-	public static  void parseUniversityDiscount(String dataPath) throws SQLException, FileNotFoundException {
+	public static  void parseUniversityDiscount(String dataPath) throws FileNotFoundException {
 
 		final String[] DAY_OF_WEEK = {
 			"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"

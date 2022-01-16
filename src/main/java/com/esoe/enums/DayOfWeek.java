@@ -9,7 +9,7 @@ public enum DayOfWeek {
     SATURDAY(6, "SAT"),
     SUNDAY(7, "SUN");
 
-    int code;
+    final int code;
     final String Abbreviation;
 
     DayOfWeek(int code, String Abbreviation) {

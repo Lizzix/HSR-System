@@ -1,16 +1,19 @@
 package com.esoe.system;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.jdbc.DataSourceBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import javax.sql.DataSource;
 import java.io.File;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Database {
+public class Database  {
 
-    public Database() {
-    }
-
-    public void importSQLfile(String path) {
+    public void importSQLFile(String path) {
         try{
             File f = new File(path);
             Scanner s = new Scanner(f);

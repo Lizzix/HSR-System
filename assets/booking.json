@@ -31,8 +31,8 @@
                 "date" : "2021-06-01",
                 "ticketsType" : "business",
                 "ticketsCount" : 1,
-                "start" : "1070",//ек└ч
-                "end" : "0990",//лn┤ф
+                "start" : "1070",
+                "end" : "0990",
                 "seats": ["0611C"]
             },
             {

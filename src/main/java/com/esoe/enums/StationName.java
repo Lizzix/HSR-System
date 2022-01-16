@@ -14,9 +14,9 @@ public enum StationName {
     台南(1060, "台南", "Tainan"),
     左營(1070, "左營", "Zuoying");
 
-    private int code;
-    private String name_Zh_tw;
-    private String name_En;
+    private final int code;
+    private final String name_Zh_tw;
+    private final String name_En;
 
     StationName(int code, String name_Zh_tw, String name_En) {
         this.code = code;

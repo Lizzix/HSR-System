@@ -1,0 +1,7394 @@
+[
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 20
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 35
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 165
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 240
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 560
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 695
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 20
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 20
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 145
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 215
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 675
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 745
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 35
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 20
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 660
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 730
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 460
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 665
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 165
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 145
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 240
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 215
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 460
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 190
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 65
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 75
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 560
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 460
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 190
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 75
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 695
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 675
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 660
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 460
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": 50,
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 745
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 730
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 665
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 50,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 45
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 130
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 310
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 725
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 990
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 185
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 275
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 875
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 965
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 45
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 165
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 585
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 680
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 855
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 505
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 770
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 860
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 185
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 165
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 415
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 685
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 310
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 275
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 175
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 415
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 685
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 175
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 145
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 245
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 80
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 585
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 505
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 415
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 145
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 725
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 680
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 415
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 245
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 875
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 855
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 770
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 685
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": 65,
+    "Price": 990
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 965
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 860
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 685
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 435
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 65,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 45
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 605
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 675
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 970
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 1070
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 300
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 570
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 650
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 755
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 45
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 25
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 1020
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 545
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 830
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 930
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 285
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 840
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 300
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 185
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 525
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 285
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 185
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 605
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 570
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 75
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 175
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 370
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 675
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 650
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 545
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 75
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 105
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 290
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 755
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 265
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 175
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 105
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 285
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 970
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 830
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 370
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 290
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": 75,
+    "Price": 1070
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 1020
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 930
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 840
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 465
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 285
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 75,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 380
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 695
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 775
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 895
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1110
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1220
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 560
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 655
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 860
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1190
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 720
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 840
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1055
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1165
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 620
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 845
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 960
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 380
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 215
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 310
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 400
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 845
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 560
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 215
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 300
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 520
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 695
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 655
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 310
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 100
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 85
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 775
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 740
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 720
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 620
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 400
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 85
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 120
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 895
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 860
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 840
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 510
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 300
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 120
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1110
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1055
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 845
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 520
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 335
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": 80,
+    "Price": 1220
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1190
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1165
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 960
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 845
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 535
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 445
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 325
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 80,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 170
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 405
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 635
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 820
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1180
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1300
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 245
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 915
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1145
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1265
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 55
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 30
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 890
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1120
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1240
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 170
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 235
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 660
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1010
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1130
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 245
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 220
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 345
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1020
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 405
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 235
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 225
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 330
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 425
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 635
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 595
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 345
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 225
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 455
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 330
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 820
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 660
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 425
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 195
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 90
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 355
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 475
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 915
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 890
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 320
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 210
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 235
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 345
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1180
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1145
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1120
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1010
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 550
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 355
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 235
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": 88,
+    "Price": 1300
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1265
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1240
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1130
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 1020
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 565
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 475
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 345
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 88,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 35
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 60
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 180
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 295
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 675
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 870
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1005
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1375
+  },
+  {
+    "OriginStationID": 1009090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 35,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 35
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 385
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 835
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 970
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1215
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1340
+  },
+  {
+    "OriginStationID": 1019090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 60,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 35
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 810
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1185
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1310
+  },
+  {
+    "OriginStationID": 1029090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 180,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 825
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1070
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1195
+  },
+  {
+    "OriginStationID": 1039090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 295,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 385
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 240
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 825
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1049090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 675,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 240
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 585
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 485
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 350
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 115
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 225
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 475
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 870
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 835
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 810
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 205
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 95
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 500
+  },
+  {
+    "OriginStationID": 1059090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 1005,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 970
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 945
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 825
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 340
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 225
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 135
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1069090,
+    "DesrinationStationsID": 1,
+    "Direction": 90,
+    "TicketType": 1250,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1215
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1185
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1070
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 825
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 585
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 475
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 375
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": 90,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 1079090,
+    "DesrinationStationsID": 0,
+    "Direction": 90,
+    "TicketType": 1375,
+    "Price": ""
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1340
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1310
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1195
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 950
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 600
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 500
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": 90,
+    "Price": 125
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 450
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 630
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 825
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1195
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1355
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1490
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1690
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2060
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2250
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1125
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1285
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1440
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1635
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2005
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2195
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": -1
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 720
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1395
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1600
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1960
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2150
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 450
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 395
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 555
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 905
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1230
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1420
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1790
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1980
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 630
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 575
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 905
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1610
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1800
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 825
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 765
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 720
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 555
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 545
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 855
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1420
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1610
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1195
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1125
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 905
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 545
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 495
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 690
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1355
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1285
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 905
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 710
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 360
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 330
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 520
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1490
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1440
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1395
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1230
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 855
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 495
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 330
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 385
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 745
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 935
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1690
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1635
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1600
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1420
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1040
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 690
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 520
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 385
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 555
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 2060
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 2005
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1960
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1790
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1610
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1420
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 745
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 555
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 365
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": "business",
+    "Price": 2250
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 2195
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 2150
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1980
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1800
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1610
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1250
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 1085
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 935
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 735
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": "business",
+    "Price": 365
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1000,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 40
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 70
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 200
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 330
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 480
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 750
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 870
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 970
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1120
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1390
+  },
+  {
+    "OriginStationID": 990,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1530
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 40
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1010,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 40
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 290
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 820
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 930
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1350
+  },
+  {
+    "OriginStationID": 1000,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1490
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 70
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 40
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1020,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 400
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1050
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1320
+  },
+  {
+    "OriginStationID": 1010,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1460
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 200
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 160
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1030,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1190
+  },
+  {
+    "OriginStationID": 1020,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1330
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 330
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 290
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 260
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1035,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1030,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1200
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 480
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 430
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 400
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1040,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 500
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1035,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 750
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 700
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 270
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1043,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 380
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 650
+  },
+  {
+    "OriginStationID": 1040,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 870
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 820
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 540
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 390
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 130
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1047,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1043,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 970
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 930
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 900
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 780
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 500
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 230
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 110
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1050,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 150
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1047,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 560
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1120
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1080
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1050
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 640
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 380
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 250
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 150
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1060,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1050,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 990,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1390
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1350
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1320
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1190
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 920
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 650
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 530
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 420
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 280
+  },
+  {
+    "OriginStationID": 1060,
+    "DesrinationStationsID": 1070,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 140
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 990,
+    "Direction": 0,
+    "TicketType": "standard",
+    "Price": 1530
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1000,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1490
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1010,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1460
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1020,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1330
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1030,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1200
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1035,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 1060
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1040,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 790
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1043,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 670
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1047,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 560
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1050,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 410
+  },
+  {
+    "OriginStationID": 1070,
+    "DesrinationStationsID": 1060,
+    "Direction": 1,
+    "TicketType": "standard",
+    "Price": 140
+  }
+]

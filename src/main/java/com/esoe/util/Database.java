@@ -1,4 +1,4 @@
-package com.esoe.system;
+package com.esoe.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -11,6 +11,7 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Scanner;
 
+//TODO: Depreicate later
 public class Database  {
 
     public void importSQLFile(String path) {

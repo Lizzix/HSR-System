@@ -3,6 +3,7 @@ package com.esoe.util;
 import java.util.Calendar;
 
 public class Util {
+
     static final public String[] WeekofDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
     /**

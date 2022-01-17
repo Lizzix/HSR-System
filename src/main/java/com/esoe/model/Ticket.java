@@ -1,7 +1,7 @@
 package com.esoe.model;
 
-import com.esoe.enums.DayOfWeek;
 import com.esoe.enums.DiscountType;
+import com.esoe.enums.SeatType;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,14 +13,14 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class Discount {
+public class Ticket {
     private int id;
-    private short trainID;
+    private int orderID;
     private DiscountType discountType;
-    private Date updateDate;
-    private Date effectiveDate;
-    private Date expireDate;
-    private DayOfWeek weekday;
-    private short percentage;
-    private short amount;
+    private Date date;
+    private short startStationID;
+    private short destStationID;
+    private Boolean roundTrip;
+    private SeatType seatType;
+    private String seatCode;
 }

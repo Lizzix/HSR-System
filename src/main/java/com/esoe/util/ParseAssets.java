@@ -2,29 +2,27 @@ package com.esoe.util;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.esoe.system.Database;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-public class JsonUtils {
+public class ParseAssets {
 	private static final Gson gson = new Gson();
 	private static Database db = new Database();
 
 	// TODO: update Insert method
-	public static void parseOriginalData() throws SQLException, FileNotFoundException {
-		String data_dir = System.getProperty("user.dir") + "/assets";
-		parseStation(data_dir + "/station.json");
-		parseUniversityDiscount(data_dir + "/universityDiscount.json");
-		parseEarlyDiscount(data_dir + "/earlyDiscount.json");
-		parseTimeTable(data_dir + "/timeTable.json");
-		parsePrice(data_dir + "/price_modified.json");
+	public static void parseOriginalData() throws FileNotFoundException {
+		String dataDir = System.getProperty("user.dir") + "/assets";
+		parseStation(dataDir + "/station.json");
+		parseUniversityDiscount(dataDir + "/universityDiscount.json");
+		parseEarlyDiscount(dataDir + "/earlyDiscount.json");
+		parseTimeTable(dataDir + "/timeTable.json");
+		parsePrice(dataDir + "/price_modified.json");
 	}
 
 	public static void parsePrice(String dataPath) {
@@ -36,6 +34,9 @@ public class JsonUtils {
 				String direction = o.get("Direction").getAsString();
 				String ticket_type = o.get("TicketType").getAsString();
 				String price = o.get("Price").getAsString();
+				if (ticket_type.length() == 2) {
+					ticket_type = "P" + ticket_type;
+				}
 				final String col = "start_station_id, dest_station_id, direction, ticket_type, price";
 				String args = String.format("'%s', '%s', '%s', '%s', '%s'",
 					start_station_id, dest_station_id, direction, ticket_type, price);
@@ -198,30 +199,4 @@ public class JsonUtils {
 		}
 	}
 
-	// TODO: Check if delete
-//	public static String getJSONStringFromFile(String path) {
-//		Scanner scanner;
-//		InputStream in = FileHandle.inputStreamFromFile(path);
-//		scanner = new Scanner(in);
-//		String json = scanner.useDelimiter("\\Z").next();
-//		scanner.close();
-//		return json;
-//	}
-//
-//	public static JSONObject getJSONObjectFromFile(String path) {
-//		return new JSONObject(getJSONStringFromFile(path));
-//	}
-//
-//	public static boolean objectExists(JSONObject jsonObject, String key) {
-//		Object o;
-//		try {
-//			o = jsonObject.get(key);
-//		} catch(Exception e) {
-//			return false;
-//		}
-//		return o != null;
-//	}
-
-
-	
 }

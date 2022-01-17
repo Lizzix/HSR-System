@@ -1,4 +1,4 @@
-package com.esoe.util;
+package com.esoe.business;
 
 import com.esoe.enums.SeatType;
 

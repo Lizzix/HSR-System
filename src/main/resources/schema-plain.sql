@@ -12,11 +12,11 @@ CREATE TABLE Station
 
 CREATE TABLE Price
 (
-    id               INT AUTO_INCREMENT                                                NOT NULL,
-    start_station_id DECIMAL(4)                                                        NOT NULL,
-    dest_station_id  DECIMAL(4)                                                        NOT NULL,
-    direction        BOOLEAN                                                           NOT NULL DEFAULT 0,
-    ticket_type      ENUM ('STANDARD', 'BUSINESS', '90', '88', '80', '75', '65', '50') NOT NULL,
+    id               INT AUTO_INCREMENT                                                      NOT NULL,
+    start_station_id DECIMAL(4)                                                              NOT NULL,
+    dest_station_id  DECIMAL(4)                                                              NOT NULL,
+    direction        BOOLEAN                                                                 NOT NULL DEFAULT 0,
+    ticket_type      ENUM ('STANDARD', 'BUSINESS', 'P90', 'P88', 'P80', 'P75', 'P65', 'P50') NOT NULL,
     price            INT UNSIGNED check (price > 0),
     PRIMARY KEY (id),
     FOREIGN KEY (start_station_id) REFERENCES Station (id),
@@ -25,7 +25,7 @@ CREATE TABLE Price
 
 CREATE TABLE Discount
 (
-    id             INT AUTO_INCREMENT UNIQUE                              NOT NULL,
+    id             INT AUTO_INCREMENT UNIQUE                        NOT NULL,
     train_id       DECIMAL(4)                                       NOT NULL,
     discount_type  ENUM ('UNIVERSITY','EARLY')                      NOT NULL,
     update_date    Date                                             NOT NULL,

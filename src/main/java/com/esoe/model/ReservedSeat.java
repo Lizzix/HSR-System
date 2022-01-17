@@ -14,11 +14,21 @@ import java.util.Date;
 @ToString
 public class ReservedSeat {
     private int id;
-    private int ticktID;
+    private int TicketID;
     private short stationID;
     private Date date;
-    private byte car;
-    private byte row;
-    private char col;
+    private int car;
+    private int row;
+    private String col;
     private SeatType seatType;
+
+    public ReservedSeat(int ticketID, short stationID, Date date, int car, int row, String col, SeatType seatType) {
+        TicketID = ticketID;
+        this.stationID = stationID;
+        this.date = date;
+        this.car = car;
+        this.row = row;
+        this.col = col;
+        this.seatType = seatType;
+    }
 }

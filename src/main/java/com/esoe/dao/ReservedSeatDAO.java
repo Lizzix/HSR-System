@@ -15,7 +15,7 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
     RowMapper<ReservedSeat> rowMapper = (rs, rowNum) -> {
         ReservedSeat reservedSeat = new ReservedSeat();
         reservedSeat.setId(rs.getInt("id"));
-        reservedSeat.setTicktID(rs.getInt("ticket_id"));
+        reservedSeat.setTicketID(rs.getInt("ticket_id"));
         reservedSeat.setStationID(rs.getShort("station_id"));
         reservedSeat.setDate(rs.getDate("date"));
         reservedSeat.setCar(rs.getByte("car"));
@@ -33,7 +33,7 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
     @Override
     public int create(ReservedSeat reservedSeat) {
         String sql = "INSERT INTO ReservedSeat (ticket_id, station_id, date, car, row, col, seat_type) VALUES (?, ?, ?, ?, ?, ?, ?)";
-        return jdbcTemplate.update(sql, reservedSeat.getTicktID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString());
+        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString());
     }
 
     @Override
@@ -50,7 +50,7 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
     @Override
     public int update(ReservedSeat reservedSeat, int id) {
         String sql = "UPDATE ReservedSeat SET ticket_id = ?, station_id = ?, date = ?, car = ?, row = ?, col = ?, seat_type = ? WHERE id = ?";
-        return jdbcTemplate.update(sql, reservedSeat.getTicktID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString(), id);
+        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString(), id);
     }
 
     @Override

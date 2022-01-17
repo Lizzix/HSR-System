@@ -1,20 +1,20 @@
 package com.esoe.enums;
 
 public enum DayOfWeek {
-    MONDAY(1, "MON"),
-    TUESDAY(2, "TUE"),
-    WEDNESDAY(3, "WED"),
-    THURSDAY(4, "THU"),
-    FRIDAY(5, "FRI"),
-    SATURDAY(6, "SAT"),
-    SUNDAY(7, "SUN");
+    MON(1, "MON"),
+    TUE(2, "TUE"),
+    WED(3, "WED"),
+    THU(4, "THU"),
+    FRI(5, "FRI"),
+    SAT(6, "SAT"),
+    SUN(7, "SUN");
 
     final int code;
-    final String Abbreviation;
+    final String abbreviation;
 
-    DayOfWeek(int code, String Abbreviation) {
+    DayOfWeek(int code, String abbreviation) {
         this.code = code;
-        this.Abbreviation = Abbreviation;
+        this.abbreviation = abbreviation;
     }
 
     public int getCode() {
@@ -22,7 +22,7 @@ public enum DayOfWeek {
     }
 
     public String getAbbreviation() {
-        return Abbreviation;
+        return abbreviation;
     }
 
 }

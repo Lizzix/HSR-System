@@ -31,37 +31,37 @@ public class TripDAO extends DAO<Trip> {
     };
 
     @Override
-    List<Trip> list() {
+    public List<Trip> list() {
         String sql = "SELECT * FROM trip";
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    List<Trip> listByServeDay(DayOfWeek dayOfWeek) {
+    public List<Trip> listByServeDay(DayOfWeek dayOfWeek) {
         String serveDay = "serve_" + dayOfWeek.getAbbreviation();
         String sql = "SELECT * FROM trip WHERE " + serveDay + " = true";
         return jdbcTemplate.query(sql, rowMapper);
     }
 
     @Override
-    int create(Trip trip) {
+    public int create(Trip trip) {
         String sql = "INSERT INTO trip (train_id, start_station_id, dest_station_id, direction, update_date, effective_date, serve_mon, serve_tue, serve_wed, serve_thu, serve_fri, serve_sat, serve_sun) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         return jdbcTemplate.update(sql, trip.getTrainID(), trip.getStartStationID(), trip.getDestStationID(), trip.getDirection(), trip.getUpdateDate(), trip.getEffectiveDate(), trip.getServeMonday(), trip.getServeTuesday(), trip.getServeWednesday(), trip.getServeThursday(), trip.getServeFriday(), trip.getServeSaturday(), trip.getServeSunday());
     }
 
     @Override
-    Optional<Trip> get(int id) {
+    public Optional<Trip> get(int id) {
         String sql = "SELECT * FROM trip WHERE id = ?";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
     @Override
-    int update(Trip trip, int id) {
+    public int update(Trip trip, int id) {
         String sql = "UPDATE trip SET train_id = ?, start_station_id = ?, dest_station_id = ?, direction = ?, update_date = ?, effective_date = ?, serve_mon = ?, serve_tue = ?, serve_wed = ?, serve_thu = ?, serve_fri = ?, serve_sat = ?, serve_sun = ? WHERE id = ?";
         return jdbcTemplate.update(sql, trip.getTrainID(), trip.getStartStationID(), trip.getDestStationID(), trip.getDirection(), trip.getUpdateDate(), trip.getEffectiveDate(), trip.getServeMonday(), trip.getServeTuesday(), trip.getServeWednesday(), trip.getServeThursday(), trip.getServeFriday(), trip.getServeSaturday(), trip.getServeSunday(), id);
     }
 
     @Override
-    int delete(int id) {
+    public int delete(int id) {
         String sql = "DELETE FROM trip WHERE id = ?";
         return jdbcTemplate.update(sql, id);
     }

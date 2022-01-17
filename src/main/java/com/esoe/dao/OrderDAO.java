@@ -14,7 +14,7 @@ public class OrderDAO extends DAO<Order> {
     RowMapper<Order> rowMapper = (rs, rowNum) -> {
         Order order = new Order();
         order.setId(rs.getInt("id"));
-        order.setUserID(rs.getString("userID"));
+        order.setUserID(rs.getString("user_id"));
         order.setPayDeadline(rs.getDate("pay_deadline"));
         order.setPayment(rs.getInt("payment"));
         return order;

@@ -6,5 +6,5 @@ public class Validate {
         return true;
     }
 
-    // TODO: implement user info input
+    // TODO: implement user input validation
 }

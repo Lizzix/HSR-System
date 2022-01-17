@@ -22,5 +22,5 @@ public class Discount {
     private Date expireDate;
     private DayOfWeek weekday;
     private short percentage;
-    private short amount;
+    private short quantity;
 }

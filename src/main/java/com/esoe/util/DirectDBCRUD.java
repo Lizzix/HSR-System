@@ -1,18 +1,12 @@
 package com.esoe.util;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.jdbc.DataSourceBuilder;
-import org.springframework.context.annotation.Bean;
-import org.springframework.jdbc.core.JdbcTemplate;
-
-import javax.sql.DataSource;
 import java.io.File;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Scanner;
 
 //TODO: Depreicate later
-public class Database  {
+public class DirectDBCRUD {
 
     public void importSQLFile(String path) {
         try{

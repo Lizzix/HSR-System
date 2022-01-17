@@ -13,7 +13,7 @@ import com.google.gson.JsonObject;
 
 public class ParseAssets {
 	private static final Gson gson = new Gson();
-	private static Database db = new Database();
+	private static DirectDBCRUD db = new DirectDBCRUD();
 
 	// TODO: update Insert method
 	public static void parseOriginalData() throws FileNotFoundException {

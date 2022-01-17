@@ -2,11 +2,13 @@ package com.esoe.dao;
 
 import com.esoe.enums.StationName;
 import com.esoe.model.TripSchedule;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+@Slf4j
 @Repository
 public class TripScheduleDAO extends DAO<TripSchedule> {
 

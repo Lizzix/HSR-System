@@ -5,6 +5,8 @@ import com.esoe.model.TripSchedule;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+
+import java.sql.Time;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,21 +39,15 @@ public class TripScheduleDAO extends DAO<TripSchedule> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    public List<TripSchedule> listByStationNameEn(StationName stationName) {
+    public List<TripSchedule> list(StationName stationName) {
         String departStationTime = "depart_time_" + stationName;
         String sql = "SELECT * FROM TripSchedule WHERE " + departStationTime + " IS NOT NULL";
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    public List<TripSchedule> listByDepartBefore(StationName stationName, String time) {
+    public List<TripSchedule> list(StationName stationName, Time departAfterTime) {
         String departStationTime = "depart_time_" + stationName;
-        String sql = "SELECT * FROM TripSchedule WHERE " + departStationTime + "<= '" + time + "'";
-        return jdbcTemplate.query(sql, rowMapper);
-    }
-
-    public List<TripSchedule> listByDepartAfter(StationName stationName, String time) {
-        String departStationTime = "depart_time_" + stationName;
-        String sql = "SELECT * FROM TripSchedule WHERE " + departStationTime + ">= '" + time + "'";
+        String sql = "SELECT * FROM TripSchedule WHERE " + departStationTime + ">= '" + departAfterTime + "'";
         return jdbcTemplate.query(sql, rowMapper);
     }
 

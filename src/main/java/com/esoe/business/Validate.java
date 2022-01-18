@@ -12,9 +12,8 @@ import java.io.FileReader;
 @Slf4j
 public class Validate {
 
-    private static String dataDir = System.getProperty("user.dir") + "/assets/seat.json";
+    private static final String dataDir = System.getProperty("user.dir") + "/assets/seat.json";
     private static final Gson gson = new Gson();
-    private static JsonObject obj;
 
     private Validate() {}
 
@@ -22,13 +21,12 @@ public class Validate {
         if (carNo < 1 || carNo > 12) { return false; }
         if (row < 1 || row > 20) { return false; }
         try {
-            obj = gson.fromJson(new FileReader(dataDir), JsonObject.class);
+            JsonObject obj = gson.fromJson(new FileReader(dataDir), JsonObject.class);
             JsonArray cars = obj.getAsJsonArray("cars");
             JsonObject car = cars.get(carNo - 1).getAsJsonObject();
             JsonObject rows = car.getAsJsonObject("seats");
             String rowString = rows.getAsJsonArray(String.valueOf(row)).toString();
-            if (rowString.contains(column.getCodeStr())) { return true; }
-            return false;
+            return rowString.contains(column.getCodeStr());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

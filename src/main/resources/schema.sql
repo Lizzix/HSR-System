@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.5-10.6.4-MariaDB)
 # Database: HSR
-# Generation Time: 2022-01-17 05:40:17 +0000
+# Generation Time: 2022-01-17 23:02:20 +0000
 # ************************************************************
 
 
@@ -31,7 +31,7 @@ CREATE TABLE `BookingOrder` (
   `pay_deadline` datetime NOT NULL,
   `payment` mediumint(8) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=10000000 DEFAULT CHARSET=utf8mb4;
 
 
 
@@ -2782,8 +2782,17 @@ CREATE TABLE `ReservedSeat` (
   KEY `station_id` (`station_id`),
   CONSTRAINT `reservedseat_ibfk_1` FOREIGN KEY (`ticket_id`) REFERENCES `Ticket` (`id`),
   CONSTRAINT `reservedseat_ibfk_2` FOREIGN KEY (`station_id`) REFERENCES `Station` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
+LOCK TABLES `ReservedSeat` WRITE;
+/*!40000 ALTER TABLE `ReservedSeat` DISABLE KEYS */;
+
+INSERT INTO `ReservedSeat` (`id`, `ticket_id`, `station_id`, `date`, `car`, `row`, `col`, `seat_type`)
+VALUES
+	(2,1,1040,'2022-01-17',1,1,'A','STANDARD');
+
+/*!40000 ALTER TABLE `ReservedSeat` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table Station

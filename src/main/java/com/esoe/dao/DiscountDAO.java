@@ -3,9 +3,12 @@ package com.esoe.dao;
 import com.esoe.enums.DayOfWeek;
 import com.esoe.enums.DiscountType;
 import com.esoe.model.Discount;
+import com.esoe.util.Util;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -33,12 +36,18 @@ public class DiscountDAO extends DAO<Discount> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    public List<Discount> listByDiscountType(DiscountType discountType) {
+    public List<Discount> list(DiscountType discountType) {
         String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0";
         return jdbcTemplate.query(sql, rowMapper, discountType.toString());
     }
 
-    public List<Discount> listByPercentage(short percentage) {
+    public List<Discount> list(DiscountType discountType, Date date) {
+        String serveDay = Util.getDayOfWeek(date).getAbbreviation();
+        String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0 AND weekday = ? AND effective_date <= ? AND expire_date >= ?";
+        return jdbcTemplate.query(sql, rowMapper, discountType.toString(), serveDay, date, date);
+    }
+
+    public List<Discount> list(short percentage) {
         String sql = "SELECT * FROM Discount WHERE percentage = ? AND quantity > 0";
         return jdbcTemplate.query(sql, rowMapper, percentage);
     }
@@ -59,6 +68,10 @@ public class DiscountDAO extends DAO<Discount> {
     public int update(Discount discount, int id) {
         String sql = "UPDATE Discount SET train_id = ?, discount_type = ?, update_date = ?, effective_date = ?, expire_date = ?, weekday = ?, percentage = ?, quantity = ? WHERE id = ?";
         return jdbcTemplate.update(sql, discount.getTrainID(), discount.getDiscountType().toString(), discount.getUpdateDate(), discount.getEffectiveDate(), discount.getExpireDate(), discount.getWeekday().toString(), discount.getPercentage(), discount.getQuantity(), id);
+    }
+    public int update(int id, int minusQuantity) {
+        String sql = "UPDATE Discount SET quantity = quantity - ? WHERE id = ?";
+        return jdbcTemplate.update(sql, minusQuantity, id);
     }
 
     @Override

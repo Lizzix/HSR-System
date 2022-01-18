@@ -1,10 +1,14 @@
 package com.esoe.dao;
 
 import com.esoe.enums.DayOfWeek;
+import com.esoe.enums.DiscountType;
 import com.esoe.model.Trip;
+import com.esoe.util.Util;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -36,10 +40,28 @@ public class TripDAO extends DAO<Trip> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    public List<Trip> listByServeDay(DayOfWeek dayOfWeek) {
-        String serveDay = "serve_" + dayOfWeek.getAbbreviation();
-        String sql = "SELECT * FROM trip WHERE " + serveDay + " = true";
-        return jdbcTemplate.query(sql, rowMapper);
+    public List<Trip> list(short train_id, Date date) {
+        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
+        String sql = "SELECT * FROM trip WHERE " + serveDay + " = true AND effective_date <= ? AND train_id = ?";
+        return jdbcTemplate.query(sql, rowMapper, date, train_id);
+    }
+
+    public List<Trip> list(Date date) {
+        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
+        String sql = "SELECT * FROM trip WHERE " + serveDay + " = true AND effective_date <= ?";
+        return jdbcTemplate.query(sql, rowMapper, date);
+    }
+
+    public List<Trip> list(short startStationID, short destStationID, Date date) {
+        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
+        String sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id = ? AND dest_station_id = ? AND effective_date <= ? ";
+        return jdbcTemplate.query(sql, rowMapper, startStationID, destStationID, date);
+    }
+
+    public List<Trip> list(String trainIDs, short startStationID, short destStationID, Date date) {
+        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
+        String sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id = ? AND dest_station_id = ? AND effective_date <= ? AND train_id IN " + trainIDs;
+        return jdbcTemplate.query(sql, rowMapper, startStationID, destStationID, date);
     }
 
     @Override

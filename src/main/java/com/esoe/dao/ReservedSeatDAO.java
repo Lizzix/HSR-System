@@ -42,7 +42,7 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<ReservedSeat> getBySeatCode(int car, int row, char col) {
+    public Optional<ReservedSeat> get(int car, int row, char col) {
         String sql = "SELECT * FROM ReservedSeat WHERE car = ? AND row = ? AND col = ?";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, car, row, col));
     }

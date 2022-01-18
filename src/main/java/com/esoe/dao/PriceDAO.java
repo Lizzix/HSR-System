@@ -41,7 +41,7 @@ public class PriceDAO extends DAO<Price> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<Price> getByTicketType(TicketType ticketType) {
+    public Optional<Price> get(TicketType ticketType) {
         String sql = "SELECT * FROM price WHERE ticket_type = ?";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, ticketType.toString()));
     }

@@ -38,7 +38,7 @@ public class StationDAO extends DAO<Station> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<Station> getByNameZh_tw(String nameZh_tw) {
+    public Optional<Station> get(String nameZh_tw) {
         String sql = "SELECT id, name_En, name_Zh_tw, address FROM Station WHERE name_Zh_tw = ?;";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, nameZh_tw));
     }

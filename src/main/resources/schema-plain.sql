@@ -46,6 +46,8 @@ CREATE TABLE BookingOrder
     PRIMARY KEY (id)
 );
 
+ALTER TABLE BookingOrder AUTO_INCREMENT=10000000;
+
 CREATE TABLE Ticket
 (
     id               INT AUTO_INCREMENT                   NOT NULL,

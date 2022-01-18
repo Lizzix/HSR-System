@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.5-10.6.4-MariaDB)
 # Database: HSR
-# Generation Time: 2022-01-17 23:02:20 +0000
+# Generation Time: 2022-01-18 09:53:25 +0000
 # ************************************************************
 
 
@@ -2784,15 +2784,6 @@ CREATE TABLE `ReservedSeat` (
   CONSTRAINT `reservedseat_ibfk_2` FOREIGN KEY (`station_id`) REFERENCES `Station` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
-LOCK TABLES `ReservedSeat` WRITE;
-/*!40000 ALTER TABLE `ReservedSeat` DISABLE KEYS */;
-
-INSERT INTO `ReservedSeat` (`id`, `ticket_id`, `station_id`, `date`, `car`, `row`, `col`, `seat_type`)
-VALUES
-	(2,1,1040,'2022-01-17',1,1,'A','STANDARD');
-
-/*!40000 ALTER TABLE `ReservedSeat` ENABLE KEYS */;
-UNLOCK TABLES;
 
 
 # Dump of table Station
@@ -3079,25 +3070,25 @@ DROP TABLE IF EXISTS `TripSchedule`;
 CREATE TABLE `TripSchedule` (
   `id` int(10) unsigned NOT NULL,
   `trip_id` int(10) unsigned NOT NULL,
-  `depart_time_Nangang` time DEFAULT NULL,
-  `depart_time_Taipei` time DEFAULT NULL,
-  `depart_time_Banciao` time DEFAULT NULL,
-  `depart_time_Taoyuan` time DEFAULT NULL,
-  `depart_time_Hsinchu` time DEFAULT NULL,
-  `depart_time_Miaoli` time DEFAULT NULL,
-  `depart_time_Taichung` time DEFAULT NULL,
-  `depart_time_Changhua` time DEFAULT NULL,
-  `depart_time_Yunlin` time DEFAULT NULL,
-  `depart_time_Chiayi` time DEFAULT NULL,
-  `depart_time_Tainan` time DEFAULT NULL,
-  `depart_time_Zuoying` time DEFAULT NULL,
+  `Nangang` time DEFAULT NULL,
+  `Taipei` time DEFAULT NULL,
+  `Banciao` time DEFAULT NULL,
+  `Taoyuan` time DEFAULT NULL,
+  `Hsinchu` time DEFAULT NULL,
+  `Miaoli` time DEFAULT NULL,
+  `Taichung` time DEFAULT NULL,
+  `Changhua` time DEFAULT NULL,
+  `Yunlin` time DEFAULT NULL,
+  `Chiayi` time DEFAULT NULL,
+  `Tainan` time DEFAULT NULL,
+  `Zuoying` time DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 LOCK TABLES `TripSchedule` WRITE;
 /*!40000 ALTER TABLE `TripSchedule` DISABLE KEYS */;
 
-INSERT INTO `TripSchedule` (`id`, `trip_id`, `depart_time_Nangang`, `depart_time_Taipei`, `depart_time_Banciao`, `depart_time_Taoyuan`, `depart_time_Hsinchu`, `depart_time_Miaoli`, `depart_time_Taichung`, `depart_time_Changhua`, `depart_time_Yunlin`, `depart_time_Chiayi`, `depart_time_Tainan`, `depart_time_Zuoying`)
+INSERT INTO `TripSchedule` (`id`, `trip_id`, `Nangang`, `Taipei`, `Banciao`, `Taoyuan`, `Hsinchu`, `Miaoli`, `Taichung`, `Changhua`, `Yunlin`, `Chiayi`, `Tainan`, `Zuoying`)
 VALUES
 	(1,1,'12:35:00','12:46:00','12:55:00','13:10:00','13:22:00',NULL,'13:48:00',NULL,NULL,'14:14:00','14:33:00','14:48:00'),
 	(2,2,'22:15:00','22:26:00','22:35:00','22:48:00','23:00:00','23:12:00','23:44:00',NULL,NULL,NULL,NULL,NULL),

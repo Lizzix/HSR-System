@@ -1,7 +1,6 @@
 package com.esoe.dao;
 
-import com.esoe.enums.DayOfWeek;
-import com.esoe.enums.DiscountType;
+import com.esoe.enums.StationName;
 import com.esoe.model.Trip;
 import com.esoe.util.Util;
 import lombok.extern.slf4j.Slf4j;
@@ -10,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Slf4j
@@ -40,28 +40,45 @@ public class TripDAO extends DAO<Trip> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
-    public List<Trip> list(short train_id, Date date) {
-        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
-        String sql = "SELECT * FROM trip WHERE " + serveDay + " = true AND effective_date <= ? AND train_id = ?";
-        return jdbcTemplate.query(sql, rowMapper, date, train_id);
-    }
-
-    public List<Trip> list(Date date) {
-        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
-        String sql = "SELECT * FROM trip WHERE " + serveDay + " = true AND effective_date <= ?";
+    public List<Trip> list(String date) {
+        String sql = "SELECT * FROM trip WHERE effective_date <= ?";
         return jdbcTemplate.query(sql, rowMapper, date);
     }
 
-    public List<Trip> list(short startStationID, short destStationID, Date date) {
-        String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
-        String sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id = ? AND dest_station_id = ? AND effective_date <= ? ";
-        return jdbcTemplate.query(sql, rowMapper, startStationID, destStationID, date);
+    public List<Trip> list(StationName start, StationName dest, String date, short train_id) {
+        String serveDay = "serve_" + Util.getDayOfWeek(Util.stringToDate(date)).getAbbreviation();
+        String time = Util.getCurrentTimeStr();
+        String departTime = "depart_time_" + start.getName_En();
+        String sql;
+        if (Util.goSouth(start, dest)) {
+            sql = "SELECT * FROM Trip INNER JOIN TripSchedule ON Trip.id = TripSchedule.trip_id WHERE " + serveDay + " = TRUE AND start_station_id <= ? AND dest_station_id >= ? AND effective_date <= ? AND train_id = ? " + departTime + " >= ?";
+        } else {
+            sql = "SELECT * FROM Trip INNER JOIN TripSchedule ON Trip.id = TripSchedule.trip_id WHERE " + serveDay + " = TRUE AND start_station_id >= ? AND dest_station_id <= ? AND effective_date <= ? AND train_id = ? " + departTime + " >= ?";
+        }
+        return jdbcTemplate.query(sql, rowMapper, start.getCode(), dest.getCode(), date, train_id, time);
     }
 
-    public List<Trip> list(String trainIDs, short startStationID, short destStationID, Date date) {
+    public List<Trip> list(StationName start, StationName dest, String date, String time) {
+        String serveDay = "serve_" + Objects.requireNonNull(Util.getDayOfWeek(Util.stringToDate(date)).getAbbreviation());
+        String departTime = "depart_time_" + start.getName_En();
+        String sql;
+        if (Util.goSouth(start, dest)) {
+            sql = "SELECT * FROM Trip INNER JOIN TripSchedule ON Trip.id = TripSchedule.trip_id WHERE " + serveDay + " = TRUE AND start_station_id <= ? AND dest_station_id >= ? AND effective_date <= ? AND " + departTime + " >= ?";
+        } else {
+            sql = "SELECT * FROM Trip INNER JOIN TripSchedule ON Trip.id = TripSchedule.trip_id WHERE " + serveDay + " = TRUE AND start_station_id >= ? AND dest_station_id <= ? AND effective_date <= ? AND " + departTime + " >= ?";
+        }
+        return jdbcTemplate.query(sql, rowMapper, start.getCode(), dest.getCode(), date, time);
+    }
+
+    public List<Trip> list(String trainIDs, StationName start, StationName dest, Date date) {
         String serveDay = "serve_" + Util.getDayOfWeek(date).getAbbreviation();
-        String sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id = ? AND dest_station_id = ? AND effective_date <= ? AND train_id IN " + trainIDs;
-        return jdbcTemplate.query(sql, rowMapper, startStationID, destStationID, date);
+        String sql;
+        if (Util.goSouth(start, dest)) {
+            sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id <= ? AND dest_station_id >= ? AND effective_date <= ? AND train_id IN " + trainIDs;
+        } else {
+            sql = "SELECT * FROM trip WHERE " + serveDay + " = TRUE AND start_station_id >= ? AND dest_station_id <= ? AND effective_date <= ? AND train_id IN " + trainIDs;
+        }
+        return jdbcTemplate.query(sql, rowMapper, start, dest, date);
     }
 
     @Override

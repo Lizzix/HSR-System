@@ -1,6 +1,8 @@
 package com.esoe.util;
 
 import com.esoe.enums.DayOfWeek;
+import com.esoe.enums.StationName;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -41,7 +43,29 @@ public class Util {
             default:
                 return null;
         }
+    }
 
+    public static String getCurrentTimeStr() {
+        SimpleDateFormat simpleDateformat = new SimpleDateFormat("HH:mm:ss");
+        return simpleDateformat.format(new Date());
+    }
+
+    public static String getToday() {
+        SimpleDateFormat simpleDateformat = new SimpleDateFormat("yyyy-MM-dd");
+        return simpleDateformat.format(new Date());
+    }
+
+    public static Date stringToDate(String date) {
+        SimpleDateFormat simpleDateformat = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            return simpleDateformat.parse(date);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public static boolean goSouth(StationName start, StationName dest) {
+        return start.getCode() < dest.getCode();
     }
 
 }

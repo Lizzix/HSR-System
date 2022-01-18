@@ -1,4 +1,4 @@
-package com.esoe.business;
+package com.esoe.service;
 
 import com.esoe.enums.SeatPosition;
 import com.google.gson.Gson;

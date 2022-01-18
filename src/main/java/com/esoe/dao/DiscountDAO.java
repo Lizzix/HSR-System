@@ -41,6 +41,11 @@ public class DiscountDAO extends DAO<Discount> {
         return jdbcTemplate.query(sql, rowMapper, discountType.toString());
     }
 
+    public List<Discount> list(DiscountType discountType, int trainID) {
+        String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0 AND train_id = ?";
+        return jdbcTemplate.query(sql, rowMapper, discountType.toString(), trainID);
+    }
+
     public List<Discount> list(DiscountType discountType, Date date) {
         String serveDay = Util.getDayOfWeek(date).getAbbreviation();
         String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0 AND weekday = ? AND effective_date <= ? AND expire_date >= ?";

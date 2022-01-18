@@ -46,7 +46,8 @@ CREATE TABLE BookingOrder
     PRIMARY KEY (id)
 );
 
-ALTER TABLE BookingOrder AUTO_INCREMENT=10000000;
+ALTER TABLE BookingOrder
+    AUTO_INCREMENT = 10000000;
 
 CREATE TABLE Ticket
 (
@@ -102,19 +103,19 @@ CREATE TABLE Trip
 
 CREATE TABLE TripSchedule
 (
-    id                   INT UNSIGNED NOT NULL,
-    trip_id              INT UNSIGNED NOT NULL,
-    depart_time_Nangang  Time,
-    depart_time_Taipei   Time,
-    depart_time_Banciao  Time,
-    depart_time_Taoyuan  Time,
-    depart_time_Hsinchu  Time,
-    depart_time_Miaoli   Time,
-    depart_time_Taichung Time,
-    depart_time_Changhua Time,
-    depart_time_Yunlin   Time,
-    depart_time_Chiayi   Time,
-    depart_time_Tainan   Time,
-    depart_time_Zuoying  Time,
+    id       INT UNSIGNED NOT NULL,
+    trip_id  INT UNSIGNED NOT NULL,
+    Nangang  Time,
+    Taipei   Time,
+    Banciao  Time,
+    Taoyuan  Time,
+    Hsinchu  Time,
+    Miaoli   Time,
+    Taichung Time,
+    Changhua Time,
+    Yunlin   Time,
+    Chiayi   Time,
+    Tainan   Time,
+    Zuoying  Time,
     PRIMARY KEY (id)
 );

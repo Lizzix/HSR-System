@@ -24,6 +24,10 @@ public enum StationName {
         this.name_En = name_En;
     }
 
+    public static StationName getStationByCode(int i) {
+        return StationName.values()[i];
+    }
+
 
     public short getCode() {
         return code;

@@ -17,7 +17,6 @@ public class TripScheduleDAO extends DAO<TripSchedule> {
     RowMapper<TripSchedule> rowMapper = (rs, rowNum) -> {
         TripSchedule tripSchedule = new TripSchedule();
         tripSchedule.setId(rs.getInt("id"));
-        tripSchedule.setTripID(rs.getInt("trip_id"));
         tripSchedule.setDepartNangang(rs.getTime("depart_time_Nangang"));
         tripSchedule.setDepartTaipei(rs.getTime("depart_time_Taipei"));
         tripSchedule.setDepartBanciao(rs.getTime("depart_time_Banciao"));
@@ -53,8 +52,8 @@ public class TripScheduleDAO extends DAO<TripSchedule> {
 
     @Override
     public int create(TripSchedule tripSchedule) {
-        String sql = "INSERT INTO TripSchedule (trip_id, depart_time_Nangang, depart_time_Taipei, depart_time_Banciao, depart_time_Taoyuan, depart_time_Hsinchu, depart_time_Miaoli, depart_time_Taichung, depart_time_Changhua, depart_time_Yunlin, depart_time_Chiayi, depart_time_Tainan, depart_time_Zuoying) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        return jdbcTemplate.update(sql, tripSchedule.getTripID(), tripSchedule.getDepartNangang(), tripSchedule.getDepartTaipei(), tripSchedule.getDepartBanciao(), tripSchedule.getDepartTaoyuan(), tripSchedule.getDepartHsinchu(), tripSchedule.getDepartMiaoli(), tripSchedule.getDepartTaichung(), tripSchedule.getDepartChanghua(), tripSchedule.getDepartYunlin(), tripSchedule.getDepartChiayi(), tripSchedule.getDepartTainan(), tripSchedule.getDepartZuoying());
+        String sql = "INSERT INTO TripSchedule (depart_time_Nangang, depart_time_Taipei, depart_time_Banciao, depart_time_Taoyuan, depart_time_Hsinchu, depart_time_Miaoli, depart_time_Taichung, depart_time_Changhua, depart_time_Yunlin, depart_time_Chiayi, depart_time_Tainan, depart_time_Zuoying) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        return jdbcTemplate.update(sql, tripSchedule.getDepartNangang(), tripSchedule.getDepartTaipei(), tripSchedule.getDepartBanciao(), tripSchedule.getDepartTaoyuan(), tripSchedule.getDepartHsinchu(), tripSchedule.getDepartMiaoli(), tripSchedule.getDepartTaichung(), tripSchedule.getDepartChanghua(), tripSchedule.getDepartYunlin(), tripSchedule.getDepartChiayi(), tripSchedule.getDepartTainan(), tripSchedule.getDepartZuoying());
     }
 
     @Override
@@ -63,25 +62,15 @@ public class TripScheduleDAO extends DAO<TripSchedule> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<TripSchedule> getByTripID(int tripID) {
-        String sql = "SELECT * FROM TripSchedule WHERE trip_id = ?";
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, tripID));
-    }
-
     @Override
     public int update(TripSchedule tripSchedule, int id) {
-        String sql = "UPDATE TripSchedule SET trip_id = ?, depart_time_Nangang = ?, depart_time_Taipei = ?, depart_time_Banciao = ?, depart_time_Taoyuan = ?, depart_time_Hsinchu = ?, depart_time_Miaoli = ?, depart_time_Taichung = ?, depart_time_Changhua = ?, depart_time_Yunlin = ?, depart_time_Chiayi = ?, depart_time_Tainan = ?, depart_time_Zuoying = ? WHERE id = ?";
-        return jdbcTemplate.update(sql, tripSchedule.getTripID(), tripSchedule.getDepartNangang(), tripSchedule.getDepartTaipei(), tripSchedule.getDepartBanciao(), tripSchedule.getDepartTaoyuan(), tripSchedule.getDepartHsinchu(), tripSchedule.getDepartMiaoli(), tripSchedule.getDepartTaichung(), tripSchedule.getDepartChanghua(), tripSchedule.getDepartYunlin(), tripSchedule.getDepartChiayi(), tripSchedule.getDepartTainan(), tripSchedule.getDepartZuoying(), id);
+        String sql = "UPDATE TripSchedule SET depart_time_Nangang = ?, depart_time_Taipei = ?, depart_time_Banciao = ?, depart_time_Taoyuan = ?, depart_time_Hsinchu = ?, depart_time_Miaoli = ?, depart_time_Taichung = ?, depart_time_Changhua = ?, depart_time_Yunlin = ?, depart_time_Chiayi = ?, depart_time_Tainan = ?, depart_time_Zuoying = ? WHERE id = ?";
+        return jdbcTemplate.update(sql, tripSchedule.getDepartNangang(), tripSchedule.getDepartTaipei(), tripSchedule.getDepartBanciao(), tripSchedule.getDepartTaoyuan(), tripSchedule.getDepartHsinchu(), tripSchedule.getDepartMiaoli(), tripSchedule.getDepartTaichung(), tripSchedule.getDepartChanghua(), tripSchedule.getDepartYunlin(), tripSchedule.getDepartChiayi(), tripSchedule.getDepartTainan(), tripSchedule.getDepartZuoying(), id);
     }
 
     @Override
     public int delete(int id) {
         String sql = "DELETE FROM TripSchedule WHERE id = ?";
         return jdbcTemplate.update(sql, id);
-    }
-
-    public int deleteByTripID(int tripID) {
-        String sql = "DELETE FROM TripSchedule WHERE trip_id = ?";
-        return jdbcTemplate.update(sql, tripID);
     }
 }

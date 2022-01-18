@@ -1,36 +1,9 @@
 package com.esoe.util;
 
-import java.io.File;
 import java.sql.*;
 import java.util.HashMap;
-import java.util.Scanner;
 
-//TODO: Depreicate later
-public class DirectDBCRUD {
-
-    public void importSQLFile(String path) {
-        try{
-            File f = new File(path);
-            Scanner s = new Scanner(f);
-            s.useDelimiter("(;(\r)?\n)|((\r)?\n)?(--)?.*(--(\r)?\n)");
-            Statement st = null;
-            st = connect().createStatement();
-            while (s.hasNext()){
-                String line = s.next();
-                if (line.startsWith("/*!") && line.endsWith("*/")){
-                    int i = line.indexOf(' ');
-                    line = line.substring(i + 1, line.length() - " */".length());
-                }
-                if (line.trim().length() > 0){
-                    st.execute(line);
-                }
-            }
-            s.close();
-            st.close();
-        }catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-    }
+public class DirectInsert {
 
     public static Connection connect() {
         Connection conn = null;

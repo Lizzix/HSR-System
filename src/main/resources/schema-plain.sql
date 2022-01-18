@@ -57,7 +57,6 @@ CREATE TABLE Ticket
     date             Date                                 NOT NULL,
     start_station_id DECIMAL(4) UNSIGNED                  NOT NULL,
     dest_station_id  DECIMAL(4) UNSIGNED                  NOT NULL,
-    round_trip       BOOLEAN                              NOT NULL,
     seat_type        ENUM ('STANDARD', 'BUSINESS')        NOT NULL DEFAULT 'STANDARD',
     seat_code        CHAR(5)                              NOT NULL,
     PRIMARY KEY (id),
@@ -73,7 +72,6 @@ CREATE TABLE ReservedSeat
     car        DECIMAL(2)                    NOT NULL,
     row        DECIMAL(2)                    NOT NULL,
     col        char(1)                       NOT NULL,
-    seat_type  ENUM ('STANDARD', 'BUSINESS') NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (ticket_id) REFERENCES Ticket (id),
     FOREIGN KEY (station_id) REFERENCES Station (id)
@@ -89,13 +87,13 @@ CREATE TABLE Trip
     direction        BOOLEAN      NOT NULL DEFAULT 0,
     update_date      Date         NOT NULL,
     effective_date   Date         NOT NULL,
-    serve_mon        BOOLEAN      NOT NULL,
-    serve_tue        BOOLEAN      NOT NULL,
-    serve_wed        BOOLEAN      NOT NULL,
-    serve_thu        BOOLEAN      NOT NULL,
-    serve_fri        BOOLEAN      NOT NULL,
-    serve_sat        BOOLEAN      NOT NULL,
-    serve_sun        BOOLEAN      NOT NULL,
+    serve_MON        BOOLEAN      NOT NULL,
+    serve_TUE        BOOLEAN      NOT NULL,
+    serve_WED        BOOLEAN      NOT NULL,
+    serve_THU        BOOLEAN      NOT NULL,
+    serve_FRI        BOOLEAN      NOT NULL,
+    serve_SAT        BOOLEAN      NOT NULL,
+    serve_SUN        BOOLEAN      NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (start_station_id) REFERENCES Station (id),
     FOREIGN KEY (dest_station_id) REFERENCES Station (id)
@@ -104,7 +102,6 @@ CREATE TABLE Trip
 CREATE TABLE TripSchedule
 (
     id       INT UNSIGNED NOT NULL,
-    trip_id  INT UNSIGNED NOT NULL,
     Nangang  Time,
     Taipei   Time,
     Banciao  Time,
@@ -117,5 +114,5 @@ CREATE TABLE TripSchedule
     Chiayi   Time,
     Tainan   Time,
     Zuoying  Time,
-    PRIMARY KEY (id)
+    FOREIGN KEY (id) REFERENCES Trip (id)
 );

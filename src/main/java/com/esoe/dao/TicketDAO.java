@@ -21,7 +21,6 @@ public class TicketDAO extends DAO<Ticket> {
         ticket.setDate(rs.getDate("date"));
         ticket.setStartStationID(rs.getShort("start_station_id"));
         ticket.setDestStationID(rs.getShort("dest_station_id"));
-        ticket.setRoundTrip(rs.getBoolean("round_trip"));
         ticket.setSeatType(SeatType.valueOf(rs.getString("seat_type")));
         ticket.setSeatCode(rs.getString("seat_code"));
         return ticket;
@@ -34,10 +33,15 @@ public class TicketDAO extends DAO<Ticket> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
+    public List<Ticket> list(int orderID) {
+        String sql = "SELECT * FROM ticket WHERE order_id = ?";
+        return jdbcTemplate.query(sql, rowMapper, orderID);
+    }
+
     @Override
     public int create(Ticket ticket) {
-        String sql = "INSERT INTO ticket (order_id, discount_type, date, start_station_id, dest_station_id, round_trip, seat_type, seat_code) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
-        return jdbcTemplate.update(sql, ticket.getOrderID(), ticket.getDiscountType().toString(), ticket.getDate(), ticket.getStartStationID(), ticket.getDestStationID(), ticket.getRoundTrip(), ticket.getSeatType().toString(), ticket.getSeatCode());
+        String sql = "INSERT INTO ticket (order_id, discount_type, date, start_station_id, dest_station_id, seat_type, seat_code) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        return jdbcTemplate.update(sql, ticket.getOrderID(), ticket.getDiscountType().toString(), ticket.getDate(), ticket.getStartStationID(), ticket.getDestStationID(), ticket.getSeatType().toString(), ticket.getSeatCode());
     }
 
     @Override
@@ -46,15 +50,15 @@ public class TicketDAO extends DAO<Ticket> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<Ticket> getByOrderID(int orderID) {
-        String sql = "SELECT * FROM ticket WHERE order_id = ?";
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, orderID));
+    public int getNextID() {
+        String sql = "SELECT MAX(id) FROM ticket";
+        return jdbcTemplate.queryForObject(sql, Integer.class) + 1;
     }
 
     @Override
     public int update(Ticket ticket, int id) {
-        String sql = "UPDATE ticket SET order_id = ?, discount_type = ?, date = ?, start_station_id = ?, dest_station_id = ?, round_trip = ?, seat_type = ?, seat_code = ? WHERE id = ?";
-        return jdbcTemplate.update(sql, ticket.getOrderID(), ticket.getDiscountType().toString(), ticket.getDate(), ticket.getStartStationID(), ticket.getDestStationID(), ticket.getRoundTrip(), ticket.getSeatType().toString(), ticket.getSeatCode(), id);
+        String sql = "UPDATE ticket SET order_id = ?, discount_type = ?, date = ?, start_station_id = ?, dest_station_id = ?, seat_type = ?, seat_code = ? WHERE id = ?";
+        return jdbcTemplate.update(sql, ticket.getOrderID(), ticket.getDiscountType().toString(), ticket.getDate(), ticket.getStartStationID(), ticket.getDestStationID(), ticket.getSeatType().toString(), ticket.getSeatCode(), id);
     }
 
     @Override

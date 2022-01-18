@@ -33,14 +33,14 @@ public class OrderDAO extends DAO<Order> {
     }
 
     @Override
-    public Optional<Order> get(int id) {
+    public Optional get(int id) {
         String sql = "SELECT * FROM BookingOrder WHERE id = ?";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<Order> getByUserID(int userID) {
-        String sql = "SELECT * FROM BookingOrder WHERE user_id = ?";
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, userID));
+    public Optional<Order> get(int orderID, String userID) {
+        String sql = "SELECT * FROM BookingOrder WHERE id = ? AND user_id = ?";
+        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, orderID, userID));
     }
 
     @Override

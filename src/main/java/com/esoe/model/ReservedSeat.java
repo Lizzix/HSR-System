@@ -20,15 +20,13 @@ public class ReservedSeat {
     private int car;
     private int row;
     private String col;
-    private SeatType seatType;
 
-    public ReservedSeat(int ticketID, short stationID, Date date, int car, int row, String col, SeatType seatType) {
+    public ReservedSeat(int ticketID, short stationID, Date date, int car, int row, String col) {
         TicketID = ticketID;
         this.stationID = stationID;
         this.date = date;
         this.car = car;
         this.row = row;
         this.col = col;
-        this.seatType = seatType;
     }
 }

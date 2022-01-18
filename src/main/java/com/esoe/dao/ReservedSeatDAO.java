@@ -1,6 +1,6 @@
 package com.esoe.dao;
 
-import com.esoe.enums.SeatType;
+import com.esoe.enums.StationName;
 import com.esoe.model.ReservedSeat;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.RowMapper;
@@ -20,7 +20,6 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
         reservedSeat.setDate(rs.getDate("date"));
         reservedSeat.setCar(rs.getByte("car"));
         reservedSeat.setRow(rs.getByte("row"));
-        reservedSeat.setSeatType(SeatType.valueOf(rs.getString("seat_type")));
         return reservedSeat;
     };
 
@@ -30,10 +29,21 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
+    public List<ReservedSeat> list(int car, int row, String col, StationName start, StationName dest, String date) {
+        String sql;
+        if (start.getCode() < dest.getCode()) {
+            sql = "SELECT * FROM ReservedSeat WHERE car = ? AND row = ? AND col = ? AND station_id >= ? AND station_id <= ? AND date = ?";
+        }
+        else {
+            sql = "SELECT * FROM ReservedSeat WHERE car = ? AND row = ? AND col = ? AND station_id <= ? AND station_id >= ? AND date = ?";
+        }
+        return (jdbcTemplate.query(sql, rowMapper, car, row, col, date));
+    }
+
     @Override
     public int create(ReservedSeat reservedSeat) {
-        String sql = "INSERT INTO ReservedSeat (ticket_id, station_id, date, car, row, col, seat_type) VALUES (?, ?, ?, ?, ?, ?, ?)";
-        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString());
+        String sql = "INSERT INTO ReservedSeat (ticket_id, station_id, date, car, row, col) VALUES (?, ?, ?, ?, ?, ?)";
+        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol());
     }
 
     @Override
@@ -42,15 +52,10 @@ public class ReservedSeatDAO extends DAO<ReservedSeat> {
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
-    public Optional<ReservedSeat> get(int car, int row, char col) {
-        String sql = "SELECT * FROM ReservedSeat WHERE car = ? AND row = ? AND col = ?";
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, car, row, col));
-    }
-
     @Override
     public int update(ReservedSeat reservedSeat, int id) {
-        String sql = "UPDATE ReservedSeat SET ticket_id = ?, station_id = ?, date = ?, car = ?, row = ?, col = ?, seat_type = ? WHERE id = ?";
-        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), reservedSeat.getSeatType().toString(), id);
+        String sql = "UPDATE ReservedSeat SET ticket_id = ?, station_id = ?, date = ?, car = ?, row = ?, col = ? WHERE id = ?";
+        return jdbcTemplate.update(sql, reservedSeat.getTicketID(), reservedSeat.getStationID(), reservedSeat.getDate(), reservedSeat.getCar(), reservedSeat.getRow(), reservedSeat.getCol(), id);
     }
 
     @Override

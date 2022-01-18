@@ -20,7 +20,6 @@ public class Ticket {
     private Date date;
     private short startStationID;
     private short destStationID;
-    private Boolean roundTrip;
     private SeatType seatType;
     private String seatCode;
 }

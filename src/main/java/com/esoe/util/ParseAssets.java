@@ -13,9 +13,8 @@ import com.google.gson.JsonObject;
 
 public class ParseAssets {
 	private static final Gson gson = new Gson();
-	private static DirectDBCRUD db = new DirectDBCRUD();
+	private static DirectInsert db = new DirectInsert();
 
-	// TODO: update Insert method
 	public static void parseOriginalData() throws FileNotFoundException {
 		String dataDir = System.getProperty("user.dir") + "/assets";
 		parseStation(dataDir + "/station.json");

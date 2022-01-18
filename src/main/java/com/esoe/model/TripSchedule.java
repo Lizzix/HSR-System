@@ -13,8 +13,6 @@ import java.sql.Time;
 @ToString
 public class TripSchedule {
     private int id;
-    private int tripID;
-    //TODO: check if these time need @Nullable
     private Time departNangang;
     private Time departTaipei;
     private Time departBanciao;

@@ -1,21 +1,20 @@
 package com.esoe.util;
 
+import com.esoe.enums.Car;
 import com.esoe.enums.DayOfWeek;
 import com.esoe.enums.StationName;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
+import java.util.*;
 
 public class Util {
-
+    private static final Random random = new Random();
     private Util() {}
 
     /**
      * @return a random 8 bit digits [10000000, 99999999]
      */
     public static int getRandomCode() {
-        Random random = new Random();
         int lastBits = random.nextInt(10000000);
         int firstBit = random.nextInt(9) + 1;
         String code = String.format("%d%07d", firstBit, lastBits);
@@ -68,4 +67,55 @@ public class Util {
         return start.getCode() < dest.getCode();
     }
 
+    public static List<StationName> getContinuousStations(StationName start, StationName dest) {
+        List<StationName> stations = new ArrayList<>();
+        if (goSouth(start, dest)) {
+            for (int i = start.getCode(); i <= dest.getCode(); i++) {
+                stations.add(StationName.getStationByCode(i));
+            }
+        } else {
+            for (int i = start.getCode(); i >= dest.getCode(); i--) {
+                stations.add(StationName.getStationByCode(i));
+            }
+        }
+        return stations;
+    }
+
+    public static Car NumToCar(int num) {
+        switch (num) {
+            case 1:
+                return Car.one;
+            case 2:
+                return Car.two;
+            case 3:
+                return Car.three;
+            case 4:
+                return Car.four;
+            case 5:
+                return Car.five;
+            case 6:
+                return Car.six;
+            case 7:
+                return Car.seven;
+            case 8:
+                return Car.eight;
+            case 9:
+                return Car.nine;
+            case 10:
+                return Car.ten;
+            case 11:
+                return Car.eleven;
+            case 12:
+                return Car.twelve;
+            default:
+                return null;
+        }
+    }
+
+    public static Date datePlusDays(Date date, int days) {
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+        c.add(Calendar.DATE, days);
+        return c.getTime();
+    }
 }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh_tw" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣高鐵網路訂位 > 選擇車次</title>
+    <link rel="stylesheet" th:href="@{/css/site.1.22.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/jquery-ui.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/index.css}" type="text/css">
+    <script th:src="@{/src/jquery-3.6.0.min.js}" type="text/javascript"></script>
+    <script th:src="@{/js/tool.js}" type="text/javascript"></script>
+    <script th:src="@{/js/index.js}" type="text/javascript"></script>
+    <script th:src="@{/src/jquery-ui.js}" type="text/javascript"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="LinkArea">
+        <a href="/;jsessionid=A031B3D367F61FD24474C50CAF30743C" title="線上立即訂位！可依出發日期時間查詢或直接輸入車次訂位。" class="LinkAddLine">一般訂票</a>
+        <a href="/;jsessionid=A031B3D367F61FD24474C50CAF30743C?wicket:bookmarkablePage=:tw.com.mitac.webapp.thsr.viewer.History" title="訂位記錄查詢、修改行程、旅客人數刪減、取消訂位、線上付款等相關功能。">訂位查詢/付款</a>
+    </div>
+    <!-- HEADER END-->
+
+    <!-- STEP -->
+    <div id="steps" class="steps">
+        <span class="StepTitle">
+            <span>您所在的訂位步驟：</span>
+        </span>
+        <span class="Step01">
+                1. 查詢車次
+        </span>
+        <span class="Step02">
+            <strong>2. 選擇車次</strong>
+        </span>
+        <span class="Step03">
+            3. 取票資訊
+        </span>
+        4. 完成訂位
+    </div>
+    <!-- STEP END-->
+    
+    <!-- CONTENT START -->
+    <div id="content" class="content">
+        <p class="section_title">
+            <span>去程：</span>
+            <span id="goTrip_name1">南港</span> - <span id="goTrip_name2">台北</span>
+            <span id="goTrip_date">01/17</span> <span id="goTrip_day">(星期一)</span>
+        </p>
+
+        <table id="goTrip_table" width="100%" border="0" cellpadding="5" cellspacing="0" class="table_simple" style="border: 1px solid #cccccc;">
+            <!-- TABLE TITLE GO-->
+            <tbody><tr class="section_subtitle">
+                <th bgcolor="#EEEEEE">選擇</th>
+                <th bgcolor="#EEEEEE">車次</th>
+                <th bgcolor="#EEEEEE" style="border-left: 1px solid #cccccc;">全票優惠*</th>
+                <th bgcolor="#EEEEEE" style="border-left: 1px solid #cccccc;">出發時間</th>
+                <th bgcolor="#EEEEEE">到達時間</th>
+                <th bgcolor="#EEEEEE">行車時間</th>
+            </tr>
+            <!-- ROWS -->
+            </tbody>
+        </table>
+        <p style="color:#d85221"></p>
+        </span>
+        <p style="color:#FF0000"><span>*早鳥優惠僅適用於標準車廂對號座全票。</span></p>
+        
+        
+        <span id="backTrip" style="display:none;">
+            <span>
+                <p class="section_title">
+                    <span>回程：</span>
+                    <span id="backTrip_name1"></span> - <span id="backTrip_name2"></span>
+                    <span id="backTrip_date"></span> <span id="backTrip_day"></span>
+                </p>
+        
+                <table id="backTrip_table" width="100%" border="0" cellpadding="5" cellspacing="0" class="table_simple" style="border: 1px solid #cccccc;">
+                    <!-- TABLE TITLE GO-->
+                    <tbody><tr class="section_subtitle">
+                        <th bgcolor="#EEEEEE">選擇</th>
+                        <th bgcolor="#EEEEEE">車次</th>
+                        <th bgcolor="#EEEEEE" style="border-left: 1px solid #cccccc;">全票優惠*</th>
+                        <th bgcolor="#EEEEEE" style="border-left: 1px solid #cccccc;">出發時間</th>
+                        <th bgcolor="#EEEEEE">到達時間</th>
+                        <th bgcolor="#EEEEEE">行車時間</th>
+                    </tr>
+                    <!-- ROWS -->
+                    </tbody>
+                </table>
+                <p style="color:#d85221"></p>
+            </span>
+            <p style="color:#FF0000"><span>*早鳥優惠僅適用於標準車廂對號座全票。</span></p>
+        </span>
+        
+<span>
+        
+
+    <!-- 定位明細 -->
+  <p class="section_title">訂位明細</p>
+  <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table_simple">
+  <tbody><tr bgcolor="#EEEEEE" class="section_subtitle">
+    <th>行程</th>
+    <th>日期</th>
+    <th>車次</th>
+    <th>起程站</th>
+    <th>到達站</th>
+    <th>出發時間</th>
+    <th>到達時間</th>
+    <!-- <th><wicket:message key="trainPrice">trainPrice</wicket:message></th> -->
+  </tr>
+  <tr id="goTripRow" class="trainDataView" style="display: none;">
+    <td class="section_subtitle"><span>去程</span></td>
+    <td><span id="date"></span></td>
+    <td><span id="trainNo"></span></td>
+    <td><span id="startStaion"></span></td>
+    <td><span id="endStaion"></span></td>
+    <td><span id="departureTime"></span></td>
+    <td><span id="arrivalTime"></span></td>
+  </tr>
+  <tr id="backTripRow" class="trainDataView" style="display: none;">
+    <td class="section_subtitle"><span>回程</span></td>
+    <td><span id="date"></span></td>
+    <td><span id="trainNo"></span></td>
+    <td><span id="startStaion"></span></td>
+    <td><span id="endStaion"></span></td>
+    <td><span id="departureTime"></span></td>
+    <td><span id="arrivalTime"></span></td>
+  </tr>
+  <tr>
+    <td colspan="7" align="left" style="border-top: 1px solid #cccccc;"><strong>車廂：</strong><span class="PR20" id="trainType"></span>
+    <strong>票數：</strong>
+    <span>
+        <span>
+            <span>全票 <span id="ticket_adult"></span></span>&nbsp;張&nbsp;</span>
+            <span>學生票 <span id="ticket_university"></span></span>&nbsp;張&nbsp;</span></td>
+    <!--<td colspan="3" align="right" class="content_key" style="border-top: 1px solid #cccccc;"><wicket:message key="trainTotalPrice">trainTotalPrice</wicket:message> <span wicket:id="TrainTotalPriceValue">[TrainTotalPriceValue]</span></td>-->
+  </tr>
+  </tbody></table>
+</span>
+    </div>
+    <!-- CONTENT END -->
+</body>
+</html>

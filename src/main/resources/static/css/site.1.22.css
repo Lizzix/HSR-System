@@ -1,0 +1,946 @@
+/*Text Design*/
+
+.standard_text {
+    font-size: 9pt;
+    color: #333333;
+    line-height: 180%;
+}
+
+.header_text {
+    font-size: 9pt;
+    color: #FFFFFF;
+}
+
+.header_note {
+    font-size: 8pt;
+}
+
+.steps strong {
+    font-weight: bold;
+    color: #FF3300;
+}
+
+.section_title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #FF9900;
+    padding: 5px;
+    border-bottom-width: 1pt;
+    border-bottom-style: solid;
+    border-bottom-color: #FF9900;
+}
+.section_title2 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #FF9900;
+    padding: 5px;
+    border-bottom-width: 1pt;
+    border-bottom-style: solid;
+    border-bottom-color: #FF9900;
+}
+
+.section_subtitle {
+    font-weight: bold;
+    color: #000000;
+}
+
+.payment_title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.content_key {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.content_warning {
+    font-size: 9pt;
+    font-weight: normal;
+    color: #FF0000;
+}
+
+.content_key_12pt {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content_note {
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.button_main {
+    font-size: 10pt;
+    line-height: 150%;
+    color: #fff;
+    height: 28px;
+    width: 120px;
+    background: #fa6801;
+    border: 3px solid #e76103;
+    border-top: 2px solid #fe8b18;
+    border-left: 2px solid #fe8b18;
+    cursor: pointer;
+}
+
+.button_main:active {
+    background: #fa4101;
+    border: 3px solid #be3c02;
+    border-top: 2px solid #f65126;
+    border-left: 2px solid #f65126;
+}
+
+.button_support {
+    font-size: 10pt;
+    line-height: 150%;
+    color: #000;
+    height: 28px;
+    width: 120px;
+    background: #ccc;
+    border: 2px solid #999;
+    border-top: 2px solid #efefef;
+    border-left: 2px solid #efefef;
+    cursor: pointer;
+}
+
+.button_carNo {
+    font-size: 10px;
+    color: #FFF;
+    background: #666666;
+    align: center;
+    height: 30px;
+    width: 90px;
+    valign: middle;
+}
+
+.button_carNoD {
+    font-size: 10px;
+    color: #FFF;
+    background: #E8E8E8;
+    align: center;
+    height: 30px;
+    width: 90px;
+    valign: middle;
+}
+
+.button_carNoS {
+    font-size: 10px;
+    color: #FFF;
+    background: #D14800;
+    align: center;
+    height: 30px;
+    width: 90px;
+    valign: middle;
+}
+
+.button_seat {
+    font-size: 10px;
+    color: #FFF;
+    background: #666666;
+    align: center;
+    height: 30;
+    width: 35;
+    valign: middle;
+}
+
+.button_seatD {
+    font-size: 10px;
+    color: #999999;
+    background: #E8E8E8;
+    align: center;
+    height: 30;
+    width: 35;
+    valign: middle;
+}
+
+.button_seatS {
+    font-size: 10px;
+    color: #FFF;
+    background: #D14800;
+    align: center;
+    height: 30;
+    width: 35;
+    valign: middle;
+}
+
+.button_alarm {
+    font-size: 10pt;
+    line-height: 150%;
+    color: #fff;
+    height: 28px;
+    width: 120px;
+    background: #D54A09;
+    border: 3px solid #A45804;
+    border-top: 2px solid #D54A09;
+    border-left: 2px solid #D54A09;
+    cursor: pointer;
+}
+
+.button_Calendar_tw {
+    display: inline-block;
+    outline: none;
+    width: 18px;
+    height: 21px;
+    overflow: hidden;
+    border: 0px;
+    background: url(../images/tw/HeadBg.1.1.jpg) no-repeat -734px -4px #f08300;
+    /*background: url(../images/common/thsrc_cal.gif) no-repeat #FFFFFF;*/
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.button_Calendar_tw::-moz-focus-inner{border: 0px;}
+
+.button_Calendar_en {
+    display: inline-block;
+    outline: none;
+    width: 18px;
+    height: 21px;
+    overflow: hidden;
+    border: 0px;
+    background: url(../images/en/HeadBg.1.1.jpg) no-repeat -734px -4px #f08300;
+    /*background: url(../images/common/thsrc_cal.gif) no-repeat #FFFFFF;*/
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.button_Calendar_en::-moz-focus-inner{border: 0px;}
+
+.note_title {
+    font-size: 10pt;
+    color: #000000;
+    font-weight: bold;
+    border-bottom-width: 1pt;
+    border-bottom-style: dotted;
+    border-bottom-color: #666666;
+}
+
+.input_auto {
+    background-color: #FFFFFF;
+    border: 0px solid;
+    color: #000000;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.default {
+    cursor: default;
+}
+
+/*Redefined Tags*/
+body {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+select, input {
+    font-size: 9pt;
+    color: #333333;
+}
+
+table.table_details {
+    font-size: 9pt;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+
+table.table_details td {
+    padding: 7px;
+    border: 1px solid #cccccc;
+}
+
+table.table_simple {
+    font-size: 9pt;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+
+table.table_simple td {
+    padding: 7px;
+}
+
+
+table.table_alarm {
+    font-size: 9pt;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    border-collapse: collapse;
+    border: 1px solid #FF0000;
+}
+
+table.table_alarm td {
+    padding: 7px;
+}
+
+/*Div Layers*/
+#wrap {
+    margin: 0 auto;
+    color: #333333;
+}
+
+#header {
+    height: 62px;/* edit for new menu 201803*/
+    font-size: 9pt;
+    color: #fff;
+    margin-right: 5px;
+    width: 765px;
+    margin: 5px auto 0;
+}
+
+#header a {color:#FFFFFF;text-decoration:none;font-size:9pt;}
+#header a:hover {text-decoration:underline}
+
+.header_tw {
+    background: url(../images/tw/HeadBg.1.1.jpg) no-repeat 0 -47px;
+}
+.header_en {
+    background: url(../images/en/HeadBg.1.1.jpg) no-repeat 0 -47px;
+}
+.header_jp {
+    background: url(../images/jp/HeadBg.1.1.jpg) no-repeat 0 -47px;
+}
+
+.IRSLogo {float:right; height:30px; width:220px; display:inline-block;}
+
+
+.LinkArea { /* edit for new menu 201803*/
+    clear: both;
+    background: #585455; color: #ffffff;
+    display: block;
+}
+
+/* add for new menu start */
+.LinkArea a {color:#ffffff; text-decoration: none; padding:7px 25px; display:inline-block; font-size:11.5pt}
+.LinkArea a:hover, .LinkArea a.LinkAddLine {background: #d85221;}
+.tit {font-size:16pt;font-weight:bold}
+/* add for new menu end*/
+
+.MainFunc {text-align:left;}
+.LangClass {width:145px; text-align:center;}
+
+.LangCon{ /* edit for new menu 201803, delete the id name*/
+    float: right;
+    margin-top: 23px;
+    margin-right: 15px;
+}
+
+.header_en .LangCon{margin-right:80px;margin-top:22px;} /* edit for new menu 201803*/
+.header_jp .LangCon{margin-right:120px;margin-top:21px;} /* edit for new menu 201803*/
+#header .LangCon a {
+    color: #666;
+    font-weight: bold;
+}
+.LangLine {
+    padding-left: 1px;
+    padding-right: 8px;
+    border-right: 1px solid #666;
+    margin-right: 6px;
+}
+#header a.LangAc {color:#e52}
+
+#steps { /* eidt for new menu: delete border */
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-size: 9pt;
+    color: #cccccc;
+    background: #f5f5f5;
+}
+
+.StepTitle {color:#FF6600; padding-right:15px;}
+.Step01 {padding-right:10px;}
+.Step01:after {content:'　＞'}
+.Step02 {padding-right:10px;}
+.Step02:after {content:'　＞'}
+.Step03 {padding-right:10px;}
+.Step03:after {content:'　＞'}
+
+#error {
+    margin: 5px auto 0;
+    padding: 5px ;
+    font-size: 15px;
+    color: #f00;
+    font-weight: bold;
+    width: 755px;
+    text-align: left;
+}
+
+#content {
+    padding: 5px;
+    font-size: 9pt;
+    color: #333333;
+    text-align: left;
+    width: 765px;
+    margin: 5px auto 0;
+    min-height: 200px;
+}
+
+#action {
+    font-size: 9pt;
+    color: #333333;
+    width: 765px;
+    margin: 5px auto 0;
+    clear: both;
+}
+
+#note {
+    padding: 1px 30px 10px;
+    *padding-top: 15px;
+    background-color: #eeeeee;
+    font-size: 9pt;
+    color: #666666;
+    text-align: left;
+    width: 705px;
+    *width: 765px;
+    margin: 15px auto 0;
+    *margin-bottom: 20px;
+    clear: both;
+}
+.note {font-size:8pt; color:#666; line-height:1.4}
+.note em {padding:0 2px; font-style:normal; color:#663333;}
+.note li {padding:2px 0;}
+
+#footer {
+    padding: 5px;
+    text-align: left;
+    font-size: 8pt;
+    color: #666666;
+    line-height: 80%;
+    width: 765px;
+    margin: 5px auto 0;
+}
+
+#footer a {color:#09C;text-decoration:none; padding:0 2px;}
+#footer a:hover {text-decoration:underline}
+
+
+.footer_tw {background: url(../images/tw/HeadBg.1.1.jpg) no-repeat 620px 15px;}
+.footer_en {background: url(../images/en/HeadBg.1.1.jpg) no-repeat 620px 15px;}
+.footer_jp {background: url(../images/jp/HeadBg.1.1.jpg) no-repeat 620px 15px;}
+
+/*
+.footer_tw {background: url(../images/common/FooterBg.1.1.gif) no-repeat 620px 15px;}
+.footer_en {background: url(../images/common/FooterBg.1.1.gif) no-repeat 620px 15px;}
+.footer_jp {background: url(../images/common/FooterBg.1.1.gif) no-repeat 620px 15px;}
+*/
+
+table.table_details .in80 {padding-left:0px; text-indent:80px;}
+table.table_details .in60 {padding-left:0px; text-indent:60px;}
+.PR10 {padding-right:12px;}
+.PR20 {padding-right:22px;}
+.PR30 {padding-right:30px;}
+.PR40 {padding-right:42px;}
+.PL10 {padding-left:12px;}
+.PL20 {padding-left:22px;}
+.PL30 {padding-left:30px;}
+.PL40 {padding-left:42px;}
+
+*{outline:none;}  /* 新增 */
+
+/*Links*/
+.content a:link {color:#0099CC;text-decoration:none}
+.content a:visited {color:#0099CC;text-decoration:none}
+.content a:hover {color:#0099CC;text-decoration:underline}
+
+/* The main calendar widget.  DIV containing a table. */
+
+div.calendar {position: relative;}
+
+.calendar, .calendar table {
+    border: 1px solid #556;
+    font-size: 11px;
+    color: #000;
+    cursor: default;
+    background: #F7F7F7;
+    font-family: tahoma,verdana,sans-serif;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+    text-align: center;    /* They are the navigation buttons */
+    padding: 2px;          /* Make the buttons seem like they're pressing */
+    border-bottom: 1px solid #000;
+}
+
+.calendar .nav {
+    background: #fff 100% 100%;
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+    font-weight: bold;   /* Pressing it will take you to the current date */
+    text-align: center;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+    border-bottom: 1px solid #000;
+
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+    background: #fff;
+    color: #000;
+    border-top: 1px solid #000;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+    background: #D3D3D3;
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+    color: #CC4444;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+    background-color: #aaf;
+    color: #000;
+    border: 1px solid #04f;
+    padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+    background-color: #77c;
+    padding: 2px 0px 0px 2px;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+    width: 2em;
+    color: #000000;
+    text-align: right;
+    padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+    font-size: 80%;
+    color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+    color: #fbb;
+}
+
+.calendar table .wn {
+    padding: 2px 3px 2px 2px;
+    border-right: 1px solid #797979;
+    background: #D3D3D3;
+}
+
+.calendar tbody .rowhilite td {
+    background: #def;
+}
+
+.calendar tbody .rowhilite td.wn {
+    background: #eef;
+}
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+    background: #def;
+    padding: 1px 3px 1px 1px;
+    border: 1px solid #bbb;
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+    background: #cde;
+    padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { /* Cell showing today date */
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 1px 3px 1px 1px;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  c olor: #CC4444;
+}
+
+.calendar tbody td.today { /* Cell showing selected date */
+    font-weight: bold;
+}
+
+.calendar tbody .disabled {color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+    visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+    display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+    text-align: center;
+    background: #556;
+    color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+    background: #fff;
+    color: #445;
+    border-top: 1px solid #556;
+    padding: 1px;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+    background: #aaf;
+    border: 1px solid #04f;
+    color: #000;
+    padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+    background: #77c;
+    padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 4em;
+    cursor: default;
+    border: 1px solid #655;
+    background: #def;
+    color: #000;
+    font-size: 90%;
+    z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+    text-align: center;
+    padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+    width: 4em;
+}
+
+.calendar .combo .hilite {
+    background: #acf;
+}
+
+.calendar .combo .active {
+    border-top: 1px solid #46a;
+    border-bottom: 1px solid #46a;
+    background: #eef;
+    font-weight: bold;
+}
+
+.calendar td.time {
+    border-top: 1px solid #000;
+    padding: 1px 0px;
+    text-align: center;
+    background-color: #f4f0e8;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+    padding: 0px 3px 0px 4px;
+    border: 1px solid #889;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.calendar td.time .ampm {
+    text-align: center;
+}
+
+.calendar td.time .colon {
+    padding: 0px 2px 0px 3px;
+    font-weight: bold;
+}
+
+.calendar td.time span.hilite {
+    border-color: #000;
+    background-color: #667;
+    color: #fff;
+}
+
+.calendar td.time span.active {
+    border-color: #f00;
+    background-color: #000;
+    color: #0f0;
+}
+table.table_simple td.waytd {height:130px; padding:15px 0px; text-align:center;}
+table.table_simple td.paymenttd {height:130px; padding:1px 0px; text-align:center;}
+
+.tagCon {text-align:left; width:765px; margin:20px auto 0;}
+.tagCon .CT {background:url(../images/tw/tag_tw.gif) 0 -50px;height:37px;}
+.tagCon .NL {background:url(../images/tw/tag_tw.gif) 0 0px;height:37px;}
+.tagNormal {width:155px; float:left; text-indent:-9999px; height:25px;}
+.CT .tagNormal {width:135px;}
+.tagCredit {float:left; width:200px; text-indent:-9999px; height:25px;}
+.NL .tagCredit {width:175px;}
+.welC {padding:10px 10px 0 ; font-size:10pt; line-height:1.8; clear:both; margin-top:5px;}
+.welC em {border-bottom:1px solid #333; font-style:normal;padding-bottom:1px; *padding-bottom:0px;}
+.welC .emc {color:#f33;padding:5px 0 2px; *padding-bottom:0px;}
+.welC .emc em {adding:5px 0 2px; border-bottom:1px solid #f33; *padding-bottom:0px;}
+.CheckCon {padding:15px 10px 10px ; font-size:10pt;}
+.CheckCon a {margin:0 2px }
+.tabCarCon {background:url(../images/common/rentBg.jpg) no-repeat; padding:24px 0 10px 0; width: 768px; display:block; height:89px; margin:0 auto;}
+.tabCarCon a img {border:0; height:80px}
+.tabCarCon img {}
+.tabCarCon a img:hover {top:1px; left:1px; position:relative;}
+.tabCarCon table {border:2px solid #ef4b26;}
+.tabCarCon table td {padding:15px 0; text-align:center}
+.tabCarCon .br {border-right:2px solid #ef4b26}
+
+.welC ul  {padding-left:15px; margin-left:0; margin-top:0;}
+.welC li {padding-bottom:5px;}
+.creditlink {text-align:right; vertical-align:top; padding:10px 5px 20px 0;}
+.creditlink a img {margin-bottom:10px;}
+.creditlink a {position:relative;}
+.creditlink a:hover {left:1px; top:1px;}
+
+.line {size:0; border:0; height:4px; background:#efefef; color:#efefef; margin:0}
+
+
+.prt {height:300px; padding-top:25px;}
+
+.tagConEN {text-align:left; width:765px; margin:20px auto 0; clear:both;height:37px;}
+.tagConEN .NL {background:url(../images/en/tag_en.gif) 0 0px;height:37px;}
+.tagConEN .CT {background:url(../images/en/tag_en.gif) 0 -50px;height:37px;}
+
+/*
+.Banks {background:url(../images/tw/HeadBg.1.1.jpg) no-repeat 0 -205px; padding-top:25px; margin-top:25px;}
+.toBank {margin-bottom:90px; display:block; margin-top:20px;}
+.toBank a {background:url(../images/tw/HeadBg.1.1.jpg) -550px -121px no-repeat; height:33px; display:inline-block; line-height:30px; *line-height:34px;padding:0 35px 0 20px; color:#0099cc; font-size:10pt; text-decoration:none;}
+.toBank a:hover {background:url(../images/tw/HeadBg.1.1.jpg) -550px -164px no-repeat;color:#333;}
+*/
+
+/* jump info */
+.JCon {padding:10px;}
+.THead {background:#990000; color:#ffffff; padding:3px 10px 5px;}
+.JTable {border-collapse:collapse;  border-top:1px solid #d5d5d5; border-left:1px solid #d5d5d5; font-size:10.5pt;}
+.JTable td {padding:7px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5;}
+.JTable2 {border-collapse:collapse;  font-size:10.5pt;}
+.JTable2 td {padding:7px;}
+.JTable3 {border-collapse:collapse;  border:1px solid #d5d5d5;}
+.JTable3 td {border:1px solid #d5d5d5;}
+.thg {background:#f9f9f9; font-weight:bold;}
+.TCon {padding:10px;}
+.action {padding:20px 10px 10px;}
+
+.order_text_title {
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+    font-weight: bold;
+}
+.order_text {
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+}
+.des_text {
+    font-size: 14px;
+    line-height: 32px;
+    color: #333;
+    padding-right: 10px;
+    white-space: pre;
+}
+.NUM_text {
+    font-size: 18px;
+    line-height: 32px;
+    color: #DC5505;
+    font-weight: bold;
+}
+
+.seat_num {
+    font-size: 10px;
+    color: #FFF;
+}
+.seat_num1 {
+    font-size: 10px;
+    color: #999;
+}
+
+
+/*for new layout 04/12/2016*/
+
+.SeatCon {height:232px; text-align:left; border-top:2px solid #d14802; border-bottom:2px solid #d14802; position:relative;}
+.SeatCon input[type="button"] {
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    padding: 0;
+    background: #666666;
+    color: #fff;
+    float: left;
+    margin-right: 0px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.SeatCon input.button_seatD {background:#e8e8e8; color:#999999; cursor:auto;}
+.SeatCon input.button_seatS {background:#d14800;}
+.serviceCon {position:absolute; top:0;}
+.serviceCon em {display:inline-block; float:left; width:28px; height:30px; background:#666666; position:absolute;}
+.serviceCon em.service1 {top:22px; left:40px; background:url(../images/common/suitcase_icon.png) no-repeat center #999999;}
+.serviceCon em.service2 {top:22px; left:638px; height:78px; width:24px; background:url(../images/common/suitcase_icon.png) no-repeat center #999999;}
+.serviceCon em.service3 {top:182px; left:8px; background:url(../images/common/trashcan_icon.png) no-repeat center #999999;}
+.serviceCon em.service4 {top:135px; left:638px; height:78px; width:24px; background:url(../images/common/suitcase_icon.png) no-repeat center #999999;}
+.serviceCon em.service5 {top:182px; left:668px; background:url(../images/common/captain_icon.png) no-repeat center #999999;}
+
+/*for new layout 04/22/2016*/
+.Suitcase1 {
+    width: 28px;
+    height: 30px;
+    border: 0;
+    background: #999999;
+    background-image: url(../images/common/suitcase_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Suitcase2 {
+    width: 28px;
+    height: 80px;
+    border: 0;
+    background: #999999;
+    background-image: url(../images/common/suitcase_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Suitcase3 {
+    width: 28px;
+    height: 100px;
+    border: 0;
+    background: #999999;
+    background-image: url(../images/common/suitcase_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Suitcase4 {
+    width: 28px;
+    height: 70px;
+    border: 0;
+    background: #999999;
+    background-image: url(../images/common/suitcase_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TranMaster {
+    width:28px;
+    height:30px;
+    border:0;
+    background:#999999;
+    background-image: url(../images/common/captain_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TrashCan {
+    width: 28px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    background: #999999;
+    background-image: url(../images/common/trashcan_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.DisableIcon {
+    width: 28px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    background: #999999;
+    background-image: url(../images/common/disabled.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Toilet {
+    width: 28px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    background: #999999;
+    background-image: url(../images/common/toilet-icon.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Vending {
+    width: 28px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    background: #999999;
+    background-image: url(../images/common/vending-icon.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.traintoS {background:url(../images/tw/trainHead.gif) no-repeat left top; width:29px;}
+.traintoN {background:url(../images/tw/trainHead.gif) no-repeat right top; width:29px;}
+.traintoS_en {background:url(../images/en/trainHead_en.gif) no-repeat left top; width:29px;}
+.traintoN_en {background:url(../images/en/trainHead_en.gif) no-repeat right top; width:29px;}
+.traintoS_jp {background:url(../images/jp/trainHead_jp.gif) no-repeat left top; width:29px;}
+.traintoN_jp {background:url(../images/jp/trainHead_jp.gif) no-repeat right top; width:29px;}
+.lineA {
+    position: absolute;
+    top: 326px;
+    left: 46px;
+}
+.lineC {
+    position: absolute;
+    top: 395px;
+    left: 73px
+}
+.lineD {
+    position: absolute;
+    top: 424px;
+    left: -420px;
+}
+.lineE {
+    position: absolute;
+    top: 480px;
+    left: 34px
+}
+
+/* 提示訊息 */
+.ui-widget-header {border: 1px solid #e78f08; background: #f6a828 url(css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold;}
+.ui-widget-overlay {background: #666666 url(css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50);}
+.ui-dialog-titlebar-close {display: none;}
+.noTitleStuff .ui-dialog-titlebar {display:none;}
+.DiffAction {padding: 20px 0px 10px;}
+.button_back {width: 130px !important;}
+
+*{font-family:"微軟正黑體", Microsoft JhengHei,Verdana, Geneva, sans-serif}

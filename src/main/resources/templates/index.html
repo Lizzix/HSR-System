@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh_tw" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣高鐵網路訂位 > 查詢車次</title>
+    <link rel="stylesheet" th:href="@{/css/site.1.22.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/jquery-ui.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/index.css}" type="text/css">
+    <script th:src="@{/src/jquery-3.6.0.min.js}" type="text/javascript"></script>
+    <script th:src="@{/js/tool.js}" type="text/javascript"></script>
+    <script th:src="@{/js/index.js}" type="text/javascript"></script>
+    <script th:src="@{/src/jquery-ui.js}" type="text/javascript"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="LinkArea">
+        <a href="/;jsessionid=A031B3D367F61FD24474C50CAF30743C" title="線上立即訂位！可依出發日期時間查詢或直接輸入車次訂位。" class="LinkAddLine">一般訂票</a>
+        <a href="/;jsessionid=A031B3D367F61FD24474C50CAF30743C?wicket:bookmarkablePage=:tw.com.mitac.webapp.thsr.viewer.History" title="訂位記錄查詢、修改行程、旅客人數刪減、取消訂位、線上付款等相關功能。">訂位查詢/付款</a>
+    </div>
+    <!-- HEADER END-->
+
+    <!-- STEP -->
+    <div id="steps" class="steps">
+        <span class="StepTitle">
+            <span>您所在的訂位步驟：</span>
+        </span>
+        <span class="Step01">
+            <strong>
+                1. 查詢車次
+            </strong>
+        </span>
+        <span class="Step02">
+            2. 選擇車次
+        </span>
+        <span class="Step03">
+            3. 取票資訊
+        </span>
+        4. 完成訂位
+    </div>
+    <!-- STEP END-->
+    
+    
+    <!-- FORM -->
+    <form action="/api" id="form_bookint" method="post"><div style="display:none"><input type="hidden" name="BookingS1Form:hf:0" id="BookingS1Form:hf:0"></div>
+
+        <div id="content" class="content">
+            <!----- marquee starts ----->
+            <marquee id="marqueeShow" behavior="scroll" scrollamount="1" direction="left" width="755" style="display: none;"></marquee>
+            <!----- marquee ends ----->
+            <div class="tit">
+                <span>一般訂票</span>
+            </div>
+
+            
+
+            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table_details" id="content">
+                
+                <tbody><tr>
+                    <td width="240" bgcolor="#eeeeee" class="section_subtitle in80">
+                        起訖站
+                    </td>
+                    <td>
+                        <span>
+                            起程站
+                            <select id="startStation" class="text1">
+                                <option selected="selected" value="">請選擇...</option>
+                            </select>
+                        </span>
+                        到達站
+                        <select id="endStation" class="text1">
+                            <option selected="selected" value="">請選擇...</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#eeeeee" class="section_subtitle in80">
+                        車廂種類
+                    </td>
+                    <td>
+                        <input name="trainRadioGroup" type="radio" checked="checked" value="標準" id="trainCon:trainRadioGroup_0">
+                        <label for="trainCon:trainRadioGroup_0">標準車廂</label> 
+                        <input name="trainRadioGroup" type="radio" value="商務" id="trainCon:trainRadioGroup_1">
+                        <label for="trainCon:trainRadioGroup_1">商務車廂</label> 
+                    </td>
+                </tr>
+                <tr style="" id="BookingS1Form_seatCon">
+                    <td bgcolor="#eeeeee" class="section_subtitle in80">
+                        座位喜好
+                    </td>
+                    <td>
+                        <input name="seatRadioGroup" checked="" id="seatRadio0" type="radio" class="input1" value="無">
+                        無
+                        <input name="seatRadioGroup" id="seatRadio1" type="radio" class="input1" value="靠窗">
+                        靠窗優先
+                        <span class="section_subtitle"></span>
+                        <input name="seatRadioGroup" id="seatRadio2" type="radio" class="input1" value="走道">
+                        走道優先
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#eeeeee" class="section_subtitle in80">
+                        訂位方式
+                    </td>
+                    <td>
+                        <span>
+                            <input name="bookingMethod" type="radio" checked="checked" value="0" id="bookingMethod_0">
+                            <label for="bookingMethod_0">依時間搜尋合適車次</label> 
+                            <input name="bookingMethod" type="radio" value="1" id="bookingMethod_1">
+                            <label for="bookingMethod_1">直接輸入車次號碼</label> 
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" bgcolor="#eeeeee" class="section_subtitle in80">
+                        時間
+                    </td>
+                    <td>
+                        <span  id="toDateSpan" >去程
+                            <input type="text" id="toDate">
+                        </span>
+                        <span id="toTimeTable">
+                            約
+                            <select id="toTime">
+                                <option selected="selected" value="">請選擇...</option>
+                            </select>
+                            出發
+                        </span>
+                        <span id="toTrainID" class="hide">
+                            車次號碼
+                            <input name="toTrainIDInputField" size="4" type="text" maxlength="4" value="">
+                        </span>
+
+                        <span id="ReturnTrip">
+                            <span style="display:inline">
+                                <input id="returnCheckBox" type="checkbox">
+                                訂購回程
+                            </span>
+                        </span>
+
+                        <span id="backInfo" class="hide">
+                            <span><br><br>回程
+                                <input type="text" id="backDate">
+                            </span>
+                            <span id="backTimeTable">
+                                約
+                                <select id="backTime">
+                                    <option selected="selected" value="">請選擇...</option>
+                                </select>
+                                出發
+                            </span>
+                            <span id="backTrainID" class="hide">
+                                車次號碼
+                                <input name="backTrainIDInputField" size="4" type="text" maxlength="4" value=""></span>
+                            </span>
+                        </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#eeeeee" class="section_subtitle in80">
+                        票數
+                    </td>
+                    <td align="left">
+                        <span class="PR10">
+                            <span>全票</span>
+                            <select id="ticket_adult"></select>
+                        </span>
+                        <span class="PR10">
+                            <span>大學生優惠票</span>
+                            <select id="ticket_university"></select>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#eeeeee" class="section_subtitle in80">
+                        查詢早鳥優惠
+                    </td>
+                    <td align="left">
+                        <div id="onlyQueryOffPeak">
+                            <input id="onlyQueryOffPeak" disabled="disabled" type="checkbox" offpeaksearchdatelimit="5"><font color="gray" id="onlyQueryOffPeakMsgFont"><span id="onlyQueryOffPeakMsg">僅顯示尚有早鳥優惠之車次</span></font>
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody></table>
+
+        </div>
+        <input id="searchBtn" class="button_main" value="開始查詢">
+    </form>
+    <!-- FORM END -->
+</body>
+</html>

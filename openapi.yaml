@@ -1,0 +1,394 @@
+openapi: 3.0.0
+servers:
+  - url: "/api"
+info:
+  description: "高鐵訂票系統API文件"
+  version: 1.0.0
+  title: OOAD 2021 FALL Final Project
+tags:
+  - name: Search
+    description: 查詢
+  - name: Booking
+    description: 訂票
+  - name: Order
+    description: 訂單查詢/刪除/修改
+paths:
+  /timetable:
+    post:
+      tags:
+        - Search
+      summary: 查詢時刻表
+      description: 這裡查詢有兩種 1.時間查詢 2.車號查詢，如果是時間查詢trainNo會是空字串，如果是車號查詢time會是空字串 
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                date:
+                  type: string
+                  format: date
+                  description: yyyy-mm-dd
+                time:
+                  type: string
+                  format: time
+                  description: hh:mm
+                trainNo:
+                  type: string
+                startStationId:
+                  type: string
+                  description: station id
+                endStationId:
+                  type: string
+                  description: station id
+      responses:
+        200:
+          description: 查詢成功，回傳時刻表陣列
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                  - type: object
+                    properties:
+                      data:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/TimeTable"
+        400:
+          description: 沒有查詢到符合條件的時刻表
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+                
+  /checkBooking:
+    post:
+      tags:
+        - Booking
+      summary: 檢查車票是否可以訂
+      description: 有可能訂來回票，所以request body是array
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                $ref: "#/components/schemas/BookingRequest"
+                
+      responses:
+        200:
+          description: 回傳可不可以訂票結果
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                  - type: object
+                    properties:
+                      data:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            canBooking:
+                              type: boolean
+                              description: 可不可以訂票
+                            reason:
+                              type: string
+                              description: 不可訂票理由
+                            price:
+                              type: integer
+                              description: 價錢
+  /booking:
+    post:
+      tags:
+        - Booking
+      summary: 訂車票
+      description: 有可能訂來回票，所以request body data是array
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: 身分證字號
+                data:
+                  type: array
+                  items:
+                    type: object
+                    $ref: "#/components/schemas/BookingRequest"
+                    
+      responses:
+        200:
+          description: 訂票成功
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          orderId:
+                            type: string
+                            description: 訂位代號
+                          infos:
+                            type: array
+                            items: 
+                              allOf:
+                                - $ref: "#/components/schemas/BookingInfo"
+        400:
+          description: 訂票失敗，在message提供失敗訊息
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        
+  /getOrder:
+    post:
+      tags:
+        - Order
+      summary: 查訂票紀錄
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: 身分證字號
+      responses:
+        200:
+          description: 有訂票紀錄
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          orderId:
+                            type: string
+                            description: 訂位代號
+                          infos:
+                            type: array
+                            items: 
+                              allOf:
+                                - $ref: "#/components/schemas/BookingInfo"
+        400:
+          description: 無訂票紀錄
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+     
+
+                        
+  /deleteOrder:
+    post:
+      tags:
+        - Order
+      summary: 刪除訂票紀錄
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: 身分證字號
+                orderId:
+                  type: string
+                  description: order id
+      responses:
+        200:
+          description: 刪除成功
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+        400:
+          description: 刪除失敗
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+  /modifyOrder:
+    post:
+      tags:
+        - Order
+      summary: 修改訂票紀錄(只改人數)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: string
+                  description: 身分證字號
+                orderId:
+                  type: string
+                  description: order id
+                adultTickets: 
+                  type: integer
+                universityTickets:
+                  type: integer
+      responses:
+        200:
+          description: 修改成功
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+        400:
+          description: 修改失敗
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/ApiResponse"
+                                
+      
+components:
+  schemas:
+    Station:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+    TimeTable:
+      type: object
+      properties:
+        trainNo:
+          type: string
+        departureTime:
+          type: string
+          description: 出發時間 hh:mm
+        arrivalTime:
+          type: string
+          description: 到達時間 hh:mm
+        earlyDiscount:
+          type: number
+          description: 早鳥優惠
+        universityDiscount:
+          type: number
+          description: 大學生優惠
+        startStation:
+          $ref: "#/components/schemas/Station"
+        endStation:
+          $ref: "#/components/schemas/Station"
+        
+    BookingRequest:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          description: yyyy-mm-dd
+        startStationId:
+          type: string
+          description: station id
+        endStationId:
+          type: string
+          description: station id
+        trainNo:
+          type: string
+          description: 車次
+        trainType:
+            type: string
+            enum:
+              - 標準
+              - 商務
+        seatType:
+          type: string
+          enum:
+            - 無
+            - 靠窗
+            - 走道
+        adultTickets:
+          type: integer
+          description: 成人票數量
+        universityTickets:
+          type: integer
+          description: 大學生票數量
+    BookingInfo:
+      type: object
+      properties:
+        date:
+          type: string
+          description: 搭車日期
+        trainNo:
+          type: string
+          description: 車次
+        trainType:
+            type: string
+            enum:
+              - 標準
+              - 商務
+        seatType:
+          type: string
+          enum:
+            - 無
+            - 靠窗
+            - 走道
+        adultTickets:
+          type: integer
+          description: 成人票數量
+        universityTickets:
+          type: integer
+          description: 大學生票數量
+        departureTime:
+          type: string
+          description: 出發時間 hh:mm
+        arrivalTime:
+          type: string
+          description: 到達時間 hh:mm
+        price:
+          type: integer
+          description: 價錢
+        startStation:
+          $ref: "#/components/schemas/Station"
+        endStation:
+          $ref: "#/components/schemas/Station"
+        seat:
+          type: array
+          description: 座位
+          items:
+            type: string
+    ApiResponse:
+      type: object
+      properties:
+        status:
+          type: integer
+        message:
+          type: string
+

@@ -21,7 +21,7 @@ public class Search {
         Optional<TripSchedule> tripSchedule;
         HashMap<Trip, Optional> result = new HashMap<>();
         for (Trip trip : trips) {
-            tripSchedule = tripScheduleDAO.getByTripID(trip.getId());
+            tripSchedule = tripScheduleDAO.get(trip.getId());
             result.put(trip, tripSchedule);
         }
         return result;
@@ -42,28 +42,28 @@ public class Search {
         return getMap(trips);
     }
 
-    public Map<Trip, Optional> searchTrips(StationName start, StationName dest, String date, short train_id, DiscountType discountType) {
+    public Map<Trip, Optional> searchTrips(short train_id, StationName start, StationName dest, String date, DiscountType discountType) {
         List<Trip> trips = tripDAO.list(start, dest, date, train_id);
         HashMap<Trip, Optional> result = new HashMap<>();
         Optional<TripSchedule> tripSchedule;
         for (Trip trip : trips) {
             List<Discount> discounts = discountDAO.list(discountType, trip.getTrainID());
             for (Discount ignored : discounts) {
-                tripSchedule = tripScheduleDAO.getByTripID(trip.getId());
+                tripSchedule = tripScheduleDAO.get(trip.getId());
                 result.put(trip, tripSchedule);
             }
         }
         return result;
     }
 
-    public Map<Trip, Optional> searchTrips(StationName start, StationName dest, String date, String time, DiscountType discountType) {
+    public Map<Trip, Optional> searchTrips(String time, StationName start, StationName dest, String date, DiscountType discountType) {
         List<Trip> trips = tripDAO.list(start, dest, date, time);
         HashMap<Trip, Optional> result = new HashMap<>();
         Optional<TripSchedule> tripSchedule;
         for (Trip trip : trips) {
             List<Discount> discounts = discountDAO.list(discountType, trip.getTrainID());
             for (Discount ignored : discounts) {
-                tripSchedule = tripScheduleDAO.getByTripID(trip.getId());
+                tripSchedule = tripScheduleDAO.get(trip.getId());
                 result.put(trip, tripSchedule);
             }
         }

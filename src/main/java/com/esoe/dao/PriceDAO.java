@@ -1,5 +1,6 @@
 package com.esoe.dao;
 
+import com.esoe.enums.StationName;
 import com.esoe.enums.TicketType;
 import com.esoe.model.Price;
 import lombok.extern.slf4j.Slf4j;
@@ -44,6 +45,15 @@ public class PriceDAO extends DAO<Price> {
     public Optional<Price> get(TicketType ticketType) {
         String sql = "SELECT * FROM price WHERE ticket_type = ?";
         return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, ticketType.toString()));
+    }
+
+    public Optional<Price> get(StationName start, StationName dest, TicketType ticketType) {
+        String sql = "SELECT * FROM price WHERE start_station_id = ? AND dest_station_id = ? AND ticket_type = ?";
+        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, start.getCode(), dest.getCode(), ticketType.toString()));
+    }
+    public Optional<Price> get(StationName start, StationName dest, String ticketType) {
+        String sql = "SELECT * FROM price WHERE start_station_id = ? AND dest_station_id = ? AND ticket_type = ?";
+        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, rowMapper, start.getCode(), dest.getCode(), ticketType));
     }
 
     @Override

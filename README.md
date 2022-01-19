@@ -13,6 +13,7 @@ Final Project of “Object-oriented Analysis and Design” 2021 Fall @ NTU
 
 - Facade Pattern
 - Command Pattern
+- Singleton Pattern
 - MVC Pattern
 - Separation of Concerns
 - Inversion of Control
@@ -23,3 +24,10 @@ Final Project of “Object-oriented Analysis and Design” 2021 Fall @ NTU
 ### Requirements
 - Java: version 14.0.1 or higher
 - MariaDB Server: version 10.6.4 or higher
+
+### Build
+
+
+## Future works
+- Unit Test
+- Integration Test

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Slf4j
@@ -47,9 +48,15 @@ public class DiscountDAO extends DAO<Discount> {
     }
 
     public List<Discount> list(DiscountType discountType, Date date) {
-        String serveDay = Util.getDayOfWeek(date).getAbbreviation();
+        String serveDay = Objects.requireNonNull(Util.getDayOfWeek(date)).getAbbreviation();
         String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0 AND weekday = ? AND effective_date <= ? AND expire_date >= ?";
         return jdbcTemplate.query(sql, rowMapper, discountType.toString(), serveDay, date, date);
+    }
+
+    public List<Discount> list(DiscountType discountType, int trainID, Date date) {
+        String serveDay = Objects.requireNonNull(Util.getDayOfWeek(date)).getAbbreviation();
+        String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0 AND weekday = ? AND effective_date <= ? AND expire_date >= ? AND train_id = ?";
+        return jdbcTemplate.query(sql, rowMapper, discountType.toString(), serveDay, date, date, trainID);
     }
 
     public List<Discount> list(short percentage) {

@@ -5,6 +5,7 @@ import com.esoe.enums.SeatPreference;
 import com.esoe.enums.SeatType;
 import com.esoe.exception.BLException;
 import com.esoe.service.Booking;
+import com.esoe.util.Util;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import java.util.List;
 @RequestMapping("/api")
 
 public class bookingController {
+
     @PostMapping("/booking")
     public ResponseBody booking(@PathVariable("id") String id, @PathVariable("data") List data) throws BLException {
         ResponseBody response = new ResponseBody();
@@ -25,11 +27,11 @@ public class bookingController {
         short trainNo = Short.parseShort(data.get(3).toString());
         SeatType seatType = SeatType.valueOf(data.get(4).toString());
         SeatPreference seatPref = SeatPreference.valueOf(data.get(5).toString());
-        int genQuentity = Integer.parseInt(data.get(6).toString());
-        int uniQuentity = Integer.parseInt(data.get(7).toString());
+        int genQuantity = Integer.parseInt(data.get(6).toString());
+        int uniQuantity = Integer.parseInt(data.get(7).toString());
         DiscountType discountType = DiscountType.valueOf(data.get(8).toString());
 
-        Booking booking = new Booking(id, uniQuentity, genQuentity, date, trainNo, start, dest, seatPref, seatType, discountType);
+        Booking booking = new Booking(id, uniQuantity, genQuantity, date, trainNo, Util.strToStationName(start), Util.strToStationName(dest), seatPref, seatType, discountType);
         try {
             booking.bookTickets();
         }
@@ -44,4 +46,5 @@ public class bookingController {
         response.data.add(booking.getTickets());
         return response;
     }
+
 }

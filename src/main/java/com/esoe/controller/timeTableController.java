@@ -29,7 +29,7 @@ public class timeTableController {
                               @PathVariable("startStation") String start,
                               @PathVariable("endStation") String dest){
 
-        ResponseBody timetable = new ResponseBody();
+        ResponseBody response = new ResponseBody();
 
         List<Map<String, String>> dataList = new ArrayList<Map<String, String>>();
         Map<String, String> trip = new HashMap<>();
@@ -39,9 +39,9 @@ public class timeTableController {
 
         List<Trip> trips = tripDAO.list(startStation, destStation, date, time);
         if (trips.isEmpty()) {
-            timetable.setStatus(0);
-            timetable.setMessage("no available trip");
-            timetable.setData(null);
+            response.setStatus(0);
+            response.setMessage("no available trip");
+            response.setData(null);
         }
         List<Integer> tripIDs = new ArrayList<>();
         List<Integer> trainIDs = new ArrayList<>();
@@ -78,9 +78,9 @@ public class timeTableController {
             info.put("universityDiscount", String.valueOf(uniDiscounts.size()));
             dataList.add(info);
         }
-        timetable.setStatus(1);
-        timetable.setMessage("success");
-        return timetable;
+        response.setStatus(1);
+        response.setMessage("success");
+        return response;
     }
 
 }

@@ -38,6 +38,11 @@ public class TripScheduleDAO extends DAO<TripSchedule> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
+    public List<TripSchedule> list(int id) {
+        String sql = "SELECT * FROM TripSchedule WHERE id = ?";
+        return jdbcTemplate.query(sql, rowMapper, id);
+    }
+
     public List<TripSchedule> list(StationName stationName) {
         String departStationTime = "depart_time_" + stationName;
         String sql = "SELECT * FROM TripSchedule WHERE " + departStationTime + " IS NOT NULL";

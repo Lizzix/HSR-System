@@ -42,7 +42,7 @@ public class TripDAO extends DAO<Trip> {
 
     public List<Trip> list(String date) {
         String sql = "SELECT * FROM trip WHERE effective_date <= ?";
-        return jdbcTemplate.query(sql, rowMapper, date);
+        return jdbcTemplate.query(sql, rowMapper,date);
     }
 
     public List<Trip> list(StationName start, StationName dest, String date, short train_id) {

@@ -37,6 +37,11 @@ public class DiscountDAO extends DAO<Discount> {
         return jdbcTemplate.query(sql, rowMapper);
     }
 
+    public List<Discount> list(int trainID) {
+        String sql = "SELECT * FROM Discount WHERE quantity > 0 AND train_id = ?";
+        return jdbcTemplate.query(sql, rowMapper,trainID);
+    }
+
     public List<Discount> list(DiscountType discountType) {
         String sql = "SELECT * FROM Discount WHERE discount_type = ? AND quantity > 0";
         return jdbcTemplate.query(sql, rowMapper, discountType.toString());

@@ -13,7 +13,6 @@ Final Project of “Object-oriented Analysis and Design” 2021 Fall @ NTU
 
 - Facade Pattern
 - Command Pattern
-- Singleton Pattern
 - MVC Pattern
 - Separation of Concerns
 - Inversion of Control

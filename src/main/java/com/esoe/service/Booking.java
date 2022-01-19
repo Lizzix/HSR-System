@@ -1,9 +1,6 @@
 package com.esoe.service;
 
-import com.esoe.dao.DiscountDAO;
-import com.esoe.dao.OrderDAO;
-import com.esoe.dao.PriceDAO;
-import com.esoe.dao.TicketDAO;
+import com.esoe.dao.*;
 import com.esoe.enums.*;
 import com.esoe.exception.BLException;
 import com.esoe.model.Discount;
@@ -11,11 +8,13 @@ import com.esoe.model.Order;
 import com.esoe.model.Price;
 import com.esoe.model.Ticket;
 import com.esoe.util.Util;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
 
 @Slf4j
+@Getter
 public class Booking {
 
     private static final OrderDAO orderDAO = new OrderDAO();
@@ -68,7 +67,7 @@ public class Booking {
         return true;
     }
 
-    boolean bookTickets() throws BLException {
+    public boolean bookTickets() throws BLException {
         if (quantity >= 10 || quantity <= 0) {
             throw new BLException("Invalid quantity");
         }

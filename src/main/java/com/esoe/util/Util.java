@@ -118,4 +118,32 @@ public class Util {
         c.add(Calendar.DATE, days);
         return c.getTime();
     }
+
+    public static StationName strToStationName (String str) {
+        if (str.equals("南港")) return StationName.Nangang;
+        if (str.equals("Nangang")) return StationName.Nangang;
+        if (str.equals("台北")) return StationName.Taipei;
+        if (str.equals("Taipei")) return StationName.Taipei;
+        if (str.equals("板橋")) return StationName.Banciao;
+        if (str.equals("Banciao")) return StationName.Banciao;
+        if (str.equals("桃園")) return StationName.Taoyuan;
+        if (str.equals("Taoyuan")) return StationName.Taoyuan;
+        if (str.equals("新竹")) return StationName.Hsinchu;
+        if (str.equals("Hsinchu")) return StationName.Hsinchu;
+        if (str.equals("苗栗")) return StationName.Miaoli;
+        if (str.equals("Miaoli")) return StationName.Miaoli;
+        if (str.equals("台中")) return StationName.Taichung;
+        if (str.equals("Taichung")) return StationName.Taichung;
+        if (str.equals("彰化")) return StationName.Changhua;
+        if (str.equals("Changhua")) return StationName.Changhua;
+        if (str.equals("雲林")) return StationName.Yunlin;
+        if (str.equals("Yunlin")) return StationName.Yunlin;
+        if (str.equals("嘉義")) return StationName.Chiayi;
+        if (str.equals("Chiayi")) return StationName.Chiayi;
+        if (str.equals("台南")) return StationName.Tainan;
+        if (str.equals("Tainan")) return StationName.Tainan;
+        if (str.equals("左營")) return StationName.Zuoying;
+        if (str.equals("Zuoying")) return StationName.Zuoying;
+        return null;
+    }
 }
